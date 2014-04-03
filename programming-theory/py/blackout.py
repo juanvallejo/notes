@@ -2,8 +2,6 @@
 import re
 message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elorem nibh ut lacus dapibus rutrum? Cras augue mi, loremus ut aliquet vitae, faucibus vitae lacus. Loremi convallis commodo mi, vitae scelerisque tellus iaculis non. Morbi in convallis felis, vitae lorem risus! Nunc id dui eu risus mattis consectetur id ac diam. Curabitur diam sem, elorem suscipit turpis quis, elementum dignissim est. Lorem"
 content = ['Lorem']
-# message = "Dear friend, I just wanted to let you know that I am alive and well. Sherman and Mr Peabody are well also. I'm glad we were able to retire. My only complaint is that I wish we could have found someplace more exciting than Kansas for us to live in! If you really need to contact us, you can do so by telephone. The number is (757) 555-0478, but don't tell anyone. Later, Rocky the flying squirrel"
-# content = ['Rocky','Peabody','Kansas','Bullwinkle','irs','medicare','555','phone']
 def censorContent(a,b):
 	i = 0
 	di = -1
@@ -55,4 +53,3 @@ def censorContent(a,b):
 	if not cns:
 		ans.append(lsen)
 	return ''.join(ans)
-print(censorContent(message,content))
