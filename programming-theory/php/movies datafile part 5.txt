@@ -1,0 +1,314 @@
+movie, the godfather, 1972
+director, the godfather, francis ford coppola
+actor, the godfather, marlon brando, don vito corleone
+actor, the godfather, al pacino, michael corleone
+actor, the godfather, james caan, santino sonny corleone
+actor, the godfather, richard s castellano, pete clemenza
+actor, the godfather, robert duvall, tom hagen
+actor, the godfather, sterling hayden, capt mark mccluskey
+actor, the godfather, john marley, jack woltz
+actor, the godfather, richard conte, emilio barzini
+actor, the godfather, al lettieri, virgil sollozzo
+actress, the godfather, diane keaton, kay adams
+actor, the godfather, abe vigoda, salvadore sally tessio
+actress, the godfather, talia shire, connie
+actor, the godfather, gianni russo, carlo rizzi
+actor, the godfather, john cazale, fredo
+actor, the godfather, rudy bond, ottilio cuneo
+actor, the godfather, al martino, johnny fontane
+actress, the godfather, morgana king, mama corleone
+actor, the godfather, lenny montana, luca brasi
+actor, the godfather, john martino, paulie gatto
+actor, the godfather, salvatore corsitto, amerigo bonasera
+actor, the godfather, richard bright, al neri
+actor, the godfather, alex rocco, moe greene
+actor, the godfather, tony giorgio, bruno tattaglia
+actor, the godfather, vito scotti, nazorine
+actress, the godfather, tere livrano, theresa hagen
+actor, the godfather, victor rendina, philip tattaglia
+actress, the godfather, jeannie linero, lucy mancini
+actress, the godfather, julie gregg, sandra corleone
+actress, the godfather, ardell sheridan, mrs clemenza
+actress, the godfather, simonetta stefanelli, apollonia vitelli corleone
+actor, the godfather, angelo infanti, fabrizio
+actor, the godfather, corrado gaipa, don tommasino
+actor, the godfather, franco citti, calo
+actor, the godfather, saro urz, vitelli
+actor, the godfather, carmine coppola, piano player in montage scene
+actor, the godfather, gian carlo coppola, baptism observer
+actress, the godfather, sofia coppola, michael francis rizzi
+actor, the godfather, ron gilbert, usher in bridal party
+actor, the godfather, anthony gounaris, anthony vito corleone
+actor, the godfather, joe lo grippo, sonny s bodyguard
+actor, the godfather, sonny grosso, cop with capt mccluskey outside hospital
+actor, the godfather, louis guss, don zaluchi outspoken don at the peace conference
+actor, the godfather, randy jurgensen, sonny s killer 1
+actor, the godfather, tony lip, wedding guest
+actor, the godfather, frank macetta,
+actor, the godfather, lou martini jr, boy at wedding
+actor, the godfather, father joseph medeglia, priest at baptism
+actor, the godfather, rick petrucelli, man in passenger seat when michael is driven to the hospital
+actor, the godfather, burt richards, floral designer
+actor, the godfather, sal richards, drunk
+actor, the godfather, tom rosqui, rocco lampone
+actor, the godfather, frank sivero, extra
+actress, the godfather, filomena spagnuolo, extra at wedding scene
+actor, the godfather, joe spinell, willie cicci
+actor, the godfather, gabriele torrei, enzo robutti the baker
+actor, the godfather, nick vallelonga, wedding party guest
+actor, the godfather, ed vantura, wedding guest
+actor, the godfather, matthew vlahakis, clemenza s son pushing toy car in driveway
+
+movie, the godfather part ii, 1974
+director, the godfather part ii, francis ford coppola
+actor, the godfather part ii, al pacino, don michael corleone
+actor, the godfather part ii, robert duvall, tom hagen
+actress, the godfather part ii, diane keaton, kay corleone
+actor, the godfather part ii, robert de niro, vito corleone
+actor, the godfather part ii, john cazale, fredo corleone
+actress, the godfather part ii, talia shire, connie corleone
+actor, the godfather part ii, lee strasberg, hyman roth
+actor, the godfather part ii, michael v gazzo, frankie pentangeli
+actor, the godfather part ii, g d spradlin, sen pat geary
+actor, the godfather part ii, richard bright, al neri
+actor, the godfather part ii, gastone moschin, don fanucci
+actor, the godfather part ii, tom rosqui, rocco lampone
+actor, the godfather part ii, bruno kirby, young clemenza peter
+actor, the godfather part ii, frank sivero, genco abbandando
+actress, the godfather part ii, francesca de sapio, young mama corleone
+actress, the godfather part ii, morgana king, older carmella mama corleone
+actress, the godfather part ii, marianna hill, deanna dunn corleone
+actor, the godfather part ii, leopoldo trieste, signor roberto landlord
+actor, the godfather part ii, dominic chianese, johnny ola
+actor, the godfather part ii, amerigo tot, busetta michael s bodyguard
+actor, the godfather part ii, troy donahue, merle johnson
+actor, the godfather part ii, john aprea, young sal tessio
+actor, the godfather part ii, joe spinell, willie cicci
+actor, the godfather part ii, james caan, sonny corleone special participation
+actor, the godfather part ii, abe vigoda, sal tessio
+actress, the godfather part ii, tere livrano, theresa hagen
+actor, the godfather part ii, gianni russo, carlo rizzi
+actress, the godfather part ii, maria carta, signora andolini vito s mother
+actor, the godfather part ii, oreste baldini, young vito andolini
+actor, the godfather part ii, giuseppe sillato, don francesco ciccio
+actor, the godfather part ii, mario cotone, don tommasino
+actor, the godfather part ii, james gounaris, anthony vito corleone
+actress, the godfather part ii, fay spain, mrs marcia roth
+actor, the godfather part ii, harry dean stanton, fbi man 1
+actor, the godfather part ii, david baker, fbi man 2
+actor, the godfather part ii, carmine caridi, carmine rosato
+actor, the godfather part ii, danny aiello, tony rosato
+actor, the godfather part ii, carmine foresta, policeman
+actor, the godfather part ii, nick discenza, bartender
+actor, the godfather part ii, father joseph medeglia, father carmelo
+actor, the godfather part ii, william bowers, senate committee chairman
+actor, the godfather part ii, joseph della sorte, michael s buttonman 1
+actor, the godfather part ii, carmen argenziano, michael s buttonman 2
+actor, the godfather part ii, joe lo grippo, michael s buttonman 3
+actor, the godfather part ii, ezio flagello, impresario
+actor, the godfather part ii, livio giorgi, tenor in senza mamma
+actress, the godfather part ii, kathleen beller, girl in senza mamma
+actress, the godfather part ii, saveria mazzola, signora colombo
+actor, the godfather part ii, tito alba, cuban pres fulgencio batista
+actor, the godfather part ii, johnny naranjo, cuban translator
+actress, the godfather part ii, elda maida, pentangeli s wife
+actor, the godfather part ii, salvatore po, vincenzo pentangeli
+actor, the godfather part ii, ignazio pappalardo, mosca assassin in sicily
+actor, the godfather part ii, andrea maugeri, strollo
+actor, the godfather part ii, peter lacorte, signor abbandando
+actor, the godfather part ii, vincent coppola, street vendor
+actor, the godfather part ii, peter donat, questadt
+actor, the godfather part ii, tom dahlgren, fred corngold
+actor, the godfather part ii, paul b brown, sen ream
+actor, the godfather part ii, phil feldman, senator 1
+actor, the godfather part ii, roger corman, senator 2
+actress, the godfather part ii, ivonne coll, yolanda
+actor, the godfather part ii, joe de nicola, attendant at brothel
+actor, the godfather part ii, edward van sickle, ellis island doctor
+actress, the godfather part ii, gabriella belloni, ellis island nurse
+actor, the godfather part ii, richard watson, customs official
+actress, the godfather part ii, venancia grangerard, cuban nurse
+actress, the godfather part ii, erica yohn, governess
+actress, the godfather part ii, theresa tirelli, midwife
+actor, the godfather part ii, roman coppola, sonny corleone as a boy
+actress, the godfather part ii, sofia coppola, child on steamship in ny harbor
+actor, the godfather part ii, larry guardino, vito s uncle
+actor, the godfather part ii, gary kurtz, photographer in court
+actress, the godfather part ii, laura lyons,
+actress, the godfather part ii, connie mason, extra
+actor, the godfather part ii, john megna, young hyman roth
+actor, the godfather part ii, frank pesce, extra
+actress, the godfather part ii, filomena spagnuolo, extra in little italy
+
+movie, the godfather part iii, 1990
+director, the godfather part iii, francis ford coppola
+actor, the godfather part iii, al pacino, don michael corleone
+actress, the godfather part iii, diane keaton, kay adams mitchelson
+actress, the godfather part iii, talia shire, connie corleone rizzi
+actor, the godfather part iii, andy garcia, don vincent vinnie mancini corleone
+actor, the godfather part iii, eli wallach, don altobello
+actor, the godfather part iii, joe mantegna, joey zasa
+actor, the godfather part iii, george hamilton, b j harrison
+actress, the godfather part iii, bridget fonda, grace hamilton
+actress, the godfather part iii, sofia coppola, mary corleone
+actor, the godfather part iii, raf vallone, cardinal lamberto
+actor, the godfather part iii, franc d ambrosio, anthony vito corleone turiddu sequence cavalleria rusticana
+actor, the godfather part iii, donal donnelly, archbishop gilday
+actor, the godfather part iii, richard bright, al neri
+actor, the godfather part iii, helmut berger, frederick keinszig
+actor, the godfather part iii, don novello, dominic abbandando
+actor, the godfather part iii, john savage, father andrew hagen
+actor, the godfather part iii, franco citti, calo
+actor, the godfather part iii, mario donatone, mosca
+actor, the godfather part iii, vittorio duse, don tommasino
+actor, the godfather part iii, enzo robutti, don licio lucchesi
+actor, the godfather part iii, michele russo, spara
+actor, the godfather part iii, al martino, johnny fontane
+actor, the godfather part iii, robert cicchini, lou penning
+actor, the godfather part iii, rogerio miranda, twin bodyguard armand
+actor, the godfather part iii, carlos miranda, twin bodyguard francesco
+actor, the godfather part iii, vito antuofermo, anthony the ant squigliaro joey zaza s bulldog
+actor, the godfather part iii, robert vento, father john
+actor, the godfather part iii, willie brown, party politician
+actress, the godfather part iii, jeannie linero, lucy mancini
+actor, the godfather part iii, remo remotti, camerlengo cardinal cardinal  sistine
+actress, the godfather part iii, jeanne savarino pesch, francesca corleone
+actress, the godfather part iii, janet savarino smith, kathryn corleone
+actress, the godfather part iii, tere livrano, teresa hagen
+actor, the godfather part iii, carmine caridi, albert volpe
+actor, the godfather part iii, don costello, frank romano
+actor, the godfather part iii, al ruscio, leo cuneo
+actor, the godfather part iii, mickey knox, marty parisi
+actor, the godfather part iii, rick aviles, mask 1
+actor, the godfather part iii, michael bowen, mask 2
+actor, the godfather part iii, brett halsey, douglas michelson
+actor, the godfather part iii, gabriele torrei, enzo the baker
+actor, the godfather part iii, john abineri, hamilton banker
+actor, the godfather part iii, brian freilino, stockholder
+actor, the godfather part iii, gregory corso, unruly stockholder
+actor, the godfather part iii, marino mas, lupo
+actor, the godfather part iii, dado ruspoli, vanni
+actress, the godfather part iii, valeria sabel, sister vincenza
+actor, the godfather part iii, luigi laezza, keinszig killer
+actor, the godfather part iii, beppe pianviti, keinszig killer
+actor, the godfather part iii, santo indelicato, guardia del corpo
+actor, the godfather part iii, francesco paolo bellante, autista di don tommasino
+actor, the godfather part iii, paco reconti, gesu
+actor, the godfather part iii, mimmo cuticchio, puppet narrator
+actor, the godfather part iii, richard honigman, party reporter
+actor, the godfather part iii, nicky blair, nicky the casino host
+actor, the godfather part iii, anthony guidera, anthony the bodyguard
+actor, the godfather part iii, frank tarsia, frankie the bodyguard
+actress, the godfather part iii, diane agostini, woman with child at street fair
+actress, the godfather part iii, jessica di cicco, child
+actress, the godfather part iii, catherine scorsese, woman in cafe
+actress, the godfather part iii, ida bernardini, woman in cafe
+actor, the godfather part iii, joe drago, party security
+actor, the godfather part iii, david hume kennerly, party photographer
+actor, the godfather part iii, james d damiano, son playing soccer
+actor, the godfather part iii, michael boccio, father of soccer player
+actor, the godfather part iii, anton coppola, conductor sequence cavalleria rusticana
+actress, the godfather part iii, elena lo forte, santuzza played by sequence cavalleria rusticana
+actress, the godfather part iii, madelyn ren e monti, santuzza sung by lola sequence cavalleria rusticana
+actress, the godfather part iii, corinna vozza, lucia sequence cavalleria rusticana
+actor, the godfather part iii, angelo romero, alfio played by sequence cavalleria rusticana
+actor, the godfather part iii, paolo gavanelli, alfio sung by sequence cavalleria rusticana
+actor, the godfather part iii, salvatore billa, hired assassin
+actor, the godfather part iii, sal borgese, lucchesi s door guard
+actor, the godfather part iii, james caan, sonny corleone
+actor, the godfather part iii, richard s castellano, peter clemenza
+actor, the godfather part iii, john cazale, fredo corleone
+actor, the godfather part iii, tony devon, mob family lawyer at the church
+actor, the godfather part iii, andrea girolami, extra
+actress, the godfather part iii, simonetta stefanelli, apollonia vitelli corleone
+actor, the godfather part iii, lee strasberg, hyman roth stukowski
+actor, the godfather part iii, f x vitolo, pasquale
+
+movie, groundhog day, 1993
+director, groundhog day, harold ramis
+actor, groundhog day, bill murray, phil connors
+actress, groundhog day, andie macdowell, rita
+actor, groundhog day, chris elliott, larry
+actor, groundhog day, stephen tobolowsky, ned ryerson
+actor, groundhog day, brian doyle murray, buster green
+actress, groundhog day, marita geraghty, nancy taylor
+actress, groundhog day, angela paton, mrs lancaster
+actor, groundhog day, rick ducommun, gus
+actor, groundhog day, rick overton, ralph
+actress, groundhog day, robin duke, doris the waitress
+actress, groundhog day, carol bivins, anchorwoman
+actor, groundhog day, willie garson, kenny
+actor, groundhog day, ken hudson campbell, man in hallway
+actor, groundhog day, les podewell, old man
+actor, groundhog day, rod sell, groundhog official
+actor, groundhog day, tom milanovich, state trooper
+actor, groundhog day, john m watson sr, bartender
+actress, groundhog day, peggy roeder, piano teacher
+actor, groundhog day, harold ramis, neurologist
+actor, groundhog day, david pasquesi, psychiatrist
+actor, groundhog day, lee r sellars, cop
+actor, groundhog day, chet dubowski, felix bank guard
+actor, groundhog day, doc erickson, herman bank guard
+actress, groundhog day, sandy maschmeyer, phil s movie date
+actress, groundhog day, leighanne o neil, fan on street
+actress, groundhog day, evangeline binkley, jeopardy  viewer
+actor, groundhog day, samuel mages, jeopardy  viewer
+actor, groundhog day, ben zwick, jeopardy  viewer
+actress, groundhog day, hynden walch, debbie kleiser
+actor, groundhog day, michael shannon, fred kleiser
+actor, groundhog day, timothy hendrickson, bill waiter
+actress, groundhog day, martha webster, alice waitress
+actress, groundhog day, angela gollan, piano student
+actor, groundhog day, shaun chaiyabhat, boy in tree
+actress, groundhog day, dianne b shaw, e r nurse
+actress, groundhog day, barbara ann grimes, flat tire lady
+actress, groundhog day, ann heekin, flat tire lady
+actress, groundhog day, lucina paquet, flat tire lady
+actress, groundhog day, brenda pickleman, buster s wife
+actress, groundhog day, amy murdoch, buster s daughter
+actor, groundhog day, eric saiet, buster s son
+actress, groundhog day, lindsay albert, woman with cigarette
+actor, groundhog day, roger adler, guitarist
+actor, groundhog day, ben a fish, bassist
+actor, groundhog day, don riozz mcnichols, drummer
+actor, groundhog day, brian willig, saxophonist
+actor, groundhog day, richard henzel, dj
+actor, groundhog day, rob riley, dj
+actor, groundhog day, scooter, the groundhog
+actor, groundhog day, douglas blakeslee, man with snow shovel
+actress, groundhog day, leslie frates, herself  jeopardy  contestant
+actor, groundhog day, mason gamble,
+actor, groundhog day, simon harvey, news reporter
+actor, groundhog day, grady hutt,
+actress, groundhog day, regina prokop, polka dancer
+actor, groundhog day, daniel riggs, bachelor
+actor, groundhog day, paul terrien, groundhog official
+
+movie, hail caesar, 2006
+director, hail caesar, ethan coen
+director, hail caesar, joel coen
+
+movie, hearts of darkness a filmmaker s apocalypse, 1991
+director, hearts of darkness a filmmaker s apocalypse, fax bahr
+director, hearts of darkness a filmmaker s apocalypse, eleanor coppola
+director, hearts of darkness a filmmaker s apocalypse, george hickenlooper
+actor, hearts of darkness a filmmaker s apocalypse, john milius, himself
+actor, hearts of darkness a filmmaker s apocalypse, sam bottoms, himself
+actor, hearts of darkness a filmmaker s apocalypse, marlon brando, himself
+actress, hearts of darkness a filmmaker s apocalypse, colleen camp, herself
+actress, hearts of darkness a filmmaker s apocalypse, eleanor coppola, herself
+actor, hearts of darkness a filmmaker s apocalypse, francis ford coppola, himself
+actress, hearts of darkness a filmmaker s apocalypse, gia coppola, herself
+actor, hearts of darkness a filmmaker s apocalypse, roman coppola, himself
+actress, hearts of darkness a filmmaker s apocalypse, sofia coppola, herself
+actor, hearts of darkness a filmmaker s apocalypse, robert de niro, himself
+actor, hearts of darkness a filmmaker s apocalypse, robert duvall, himself
+actor, hearts of darkness a filmmaker s apocalypse, laurence fishburne, himself
+actor, hearts of darkness a filmmaker s apocalypse, harrison ford,
+actor, hearts of darkness a filmmaker s apocalypse, frederic forrest, himself
+actor, hearts of darkness a filmmaker s apocalypse, albert hall, himself
+actor, hearts of darkness a filmmaker s apocalypse, dennis hopper, himself
+actor, hearts of darkness a filmmaker s apocalypse, george lucas, himself
+actor, hearts of darkness a filmmaker s apocalypse, martin sheen, himself
+actor, hearts of darkness a filmmaker s apocalypse, g d spradlin, himself
+actor, hearts of darkness a filmmaker s apocalypse, orson welles, himself from 1938 radio broadcast

@@ -1,0 +1,396 @@
+movie, mission impossible, 1996
+director, mission impossible, brian de palma
+actor, mission impossible, tom cruise, ethan hunt
+actor, mission impossible, jon voight, jim phelps
+actress, mission impossible, emmanuelle b art, claire phelps
+actor, mission impossible, henry czerny, eugene kittridge
+actor, mission impossible, jean reno, franz krieger
+actor, mission impossible, ving rhames, luther stickell
+actress, mission impossible, kristin scott thomas, sarah davies
+actress, mission impossible, vanessa redgrave, max
+actor, mission impossible, dale dye, frank barnes
+actor, mission impossible, marcel iures, golitsyn
+actor, mission impossible, ion caramitru, zozimov
+actress, mission impossible, ingeborga dapkunaite, hannah williams
+actress, mission impossible, valentina yakunina, drunken female imf agent
+actor, mission impossible, marek vasut, drunken male imf agent
+actor, mission impossible, nathan osgood, kittridge technician
+actor, mission impossible, john mclaughlin, tv interviewer
+actor, mission impossible, rolf saxon, cia analyst william donloe
+actor, mission impossible, karel dobry, matthias
+actor, mission impossible, andreas wisniewski, max s companion
+actor, mission impossible, david shaeffer, diplomat rand housman
+actor, mission impossible, rudolf pechan, mayor brandl
+actor, mission impossible, gaston subert, jaroslav reid
+actor, mission impossible, ricco ross, denied area security guard
+actor, mission impossible, mark houghton, denied area security guard
+actor, mission impossible, bob friend, sky news man
+actress, mission impossible, annabel mullion, flight attendant
+actor, mission impossible, garrick hagon, cnn reporter
+actor, mission impossible, olegar fedoro, kiev room agent
+actor, mission impossible, sam douglas, kiev room agent
+actor, mission impossible, andrzej borkowski, kiev room agent
+actress, mission impossible, maya dokic, kiev room agent
+actress, mission impossible, carmela marner, kiev room agent
+actress, mission impossible, mimi potworowska, kiev room agent
+actress, mission impossible, jirina trebick, cleaning woman
+actor, mission impossible, david schneider, train engineer
+actress, mission impossible, helen lindsay, female executive in train
+actress, mission impossible, pat starr, cia agent
+actor, mission impossible, richard d sharp, cia lobby guard
+actor, mission impossible, randall paul, cia escort guard
+actress, mission impossible, sue doucette, cia agent
+actor, mission impossible, graydon gould, public official
+actor, mission impossible, tony vogel, m i 5
+actor, mission impossible, michael rogers, large man
+actress, mission impossible, laura brook, margaret hunt
+actor, mission impossible, morgan deare, donald hunt
+actor, mission impossible, david phelan, steward on train
+actress, mission impossible, melissa knatchbull, air stewardess
+actor, mission impossible, keith campbell, fireman
+actor, mission impossible, michael cella, student
+actor, mission impossible, emilio estevez, jack harmon
+actor, mission impossible, john knoll, passenger on train in tunnel
+
+movie, no country for old men, 2007
+director, no country for old men, joel coen
+
+movie, o brother where art thou, 2000
+director, o brother where art thou, ethan coen
+director, o brother where art thou, joel coen
+actor, o brother where art thou, george clooney, ulysses everett mcgill
+actor, o brother where art thou, john turturro, pete
+actor, o brother where art thou, tim blake nelson, delmar o donnell
+actor, o brother where art thou, john goodman, big dan teague
+actress, o brother where art thou, holly hunter, penny
+actor, o brother where art thou, chris thomas king, tommy johnson
+actor, o brother where art thou, charles durning, pappy o daniel
+actor, o brother where art thou, del pentecost, junior o daniel
+actor, o brother where art thou, michael badalucco, george nelson
+actor, o brother where art thou, j r horne, pappy s staff
+actor, o brother where art thou, brian reddy, pappy s staff
+actor, o brother where art thou, wayne duvall, homer stokes
+actor, o brother where art thou, ed gale, the little man
+actor, o brother where art thou, ray mckinnon, vernon t waldrip
+actor, o brother where art thou, daniel von bargen, sheriff cooley the devil
+actor, o brother where art thou, royce d applegate, man with bullhorn
+actor, o brother where art thou, frank collison, wash hogwallop
+actor, o brother where art thou, quinn gasaway, boy hogwallop
+actor, o brother where art thou, lee weaver, blind seer
+actor, o brother where art thou, millford fortenberry, pomade vendor
+actor, o brother where art thou, stephen root, radio station man
+actor, o brother where art thou, john locke, mr french
+actress, o brother where art thou, gillian welch, soggy bottom customer
+actor, o brother where art thou, a ray ratliff, record store clerk
+actress, o brother where art thou, mia tate, siren
+actress, o brother where art thou, musetta vander, siren
+actress, o brother where art thou, christy taylor, siren
+actress, o brother where art thou, april hardcastle, waitress
+actor, o brother where art thou, michael w finnell, interrogator
+actress, o brother where art thou, georgia rae rainer, wharvey gal
+actress, o brother where art thou, marianna breland, wharvey gal
+actress, o brother where art thou, lindsey miller, wharvey gal
+actress, o brother where art thou, natalie shedd, wharvey gal
+actor, o brother where art thou, john mcconnell, woolworths manager
+actor, o brother where art thou, issac freeman, gravedigger
+actor, o brother where art thou, wilson waters jr, gravedigger
+actor, o brother where art thou, robert hamlett, gravedigger
+actor, o brother where art thou, willard cox, cox family
+actress, o brother where art thou, evelyn cox, cox family
+actress, o brother where art thou, suzanne cox, cox family
+actor, o brother where art thou, sidney cox, cox family
+actor, o brother where art thou, buck white, the whites
+actress, o brother where art thou, sharon white, the whites
+actress, o brother where art thou, cheryl white, the whites
+actor, o brother where art thou, ed snodderly, village idiot
+actor, o brother where art thou, david holt, village idiot
+actor, o brother where art thou, jerry douglas, dobro player
+actor, o brother where art thou, christopher francis, kkk member
+actor, o brother where art thou, geoffrey gould, head of mob
+actor, o brother where art thou, nathaniel lee jr, ice boy on the right straw hat
+
+movie, the outsiders, 1983
+director, the outsiders, francis ford coppola
+actor, the outsiders, matt dillon, dallas dally winston
+actor, the outsiders, ralph macchio, johnny cade
+actor, the outsiders, c thomas howell, ponyboy curtis
+actor, the outsiders, patrick swayze, darrel darry curtis
+actor, the outsiders, rob lowe, sodapop curtis
+actor, the outsiders, emilio estevez, keith two bit mathews
+actor, the outsiders, tom cruise, steve randle
+actor, the outsiders, glenn withrow, tim shepard
+actress, the outsiders, diane lane, sherri cherry valance
+actor, the outsiders, leif garrett, bob sheldon
+actor, the outsiders, darren dalton, randy anderson
+actress, the outsiders, michelle meyrink, marcia
+actor, the outsiders, gailard sartain, jerry wood
+actor, the outsiders, tom waits, buck merrill
+actor, the outsiders, william smith, store clerk
+actor, the outsiders, tom hillmann, greaser in concession stand
+actor, the outsiders, hugh walkinshaw, soc in concession stand
+actress, the outsiders, sofia coppola, little girl
+actress, the outsiders, teresa wilkerson hunt, woman at fire
+actress, the outsiders, linda nystedt, nurse
+actress, the outsiders, s e hinton, nurse
+actor, the outsiders, brent beesley, suburb guy
+actor, the outsiders, john meier, paul
+actor, the outsiders, ed jackson, motorcycle cop
+actor, the outsiders, daniel r suhart, orderly
+actress, the outsiders, heather langenkamp,
+
+movie, paris je t aime, 2006
+director, paris je t aime, olivier assayas
+director, paris je t aime, fr d ric auburtin
+director, paris je t aime, christoffer boe
+director, paris je t aime, sylvain chomet
+director, paris je t aime, ethan coen
+director, paris je t aime, joel coen
+director, paris je t aime, isabel coixet
+director, paris je t aime, alfonso cuar n
+director, paris je t aime, g rard depardieu
+director, paris je t aime, jean luc godard
+director, paris je t aime, richard lagravenese
+director, paris je t aime, anne marie mi ville
+director, paris je t aime, vincenzo natali
+director, paris je t aime, alexander payne
+director, paris je t aime, walter salles
+director, paris je t aime, oliver schmitz
+director, paris je t aime, ettore scola
+director, paris je t aime, nobuhiro suwa
+director, paris je t aime, daniela thomas
+director, paris je t aime, tom tykwer
+director, paris je t aime, gus van sant
+actress, paris je t aime, emilie ohana, the young parisian recurrent character
+actress, paris je t aime, julie bataille, julie segment 1st arrondissement
+actor, paris je t aime, steve buscemi, the tourist segment 1st arrondissement
+actor, paris je t aime, axel kiener, axel segment 1st arrondissement
+actress, paris je t aime, juliette binoche, the mother segment 2nd arrondissement
+actor, paris je t aime, willem dafoe, the cow boy segment 2nd arrondissement
+actress, paris je t aime, marianne faithfull, segment 4th arrondissement
+actor, paris je t aime, elias mcconnell, eli segment 4th arrondissement
+actor, paris je t aime, gaspard ulliel, gaspar segment 4th arrondissement
+actor, paris je t aime, ben gazzara, ben segment 6th arrondissement
+actress, paris je t aime, gena rowlands, gena segment 6th arrondissement
+actress, paris je t aime, yolande moreau, female mime segment 7th arrondissement
+actor, paris je t aime, paul putner, male mime segment 7th arrondissement
+actress, paris je t aime, olga kurylenko, the femme fatale segment 8th arrondissement
+actress, paris je t aime, fanny ardant, fanny forestier segment 9th arrondissement
+actor, paris je t aime, bob hoskins, bob leander segment 9th arrondissement
+actor, paris je t aime, melchior beslon, thomas segment 10th arrondissement
+actress, paris je t aime, natalie portman, francine segment 10th arrondissement
+actor, paris je t aime, javier c mara, the doctor segment 12th arrondissement
+actress, paris je t aime, isabella rossellini, the wife segment 12th arrondissement
+actress, paris je t aime, leonor watling, segment 12th arrondissement
+actress, paris je t aime, camille japy, anna segment 15th arrondissement
+actor, paris je t aime, nick nolte, vincent segment 17th arrondissement
+actress, paris je t aime, ludivine sagnier, claire segment 17th arrondissement
+actor, paris je t aime, seydou boro, hassan segment 19th arrondissement
+actress, paris je t aime, a ssa ma ga, sophie segment 19th arrondissement
+
+movie, peggy sue got married, 1986
+director, peggy sue got married, francis ford coppola
+actress, peggy sue got married, kathleen turner, peggy sue kelcher peggy sue bodell
+actor, peggy sue got married, nicolas cage, charlie bodell
+actor, peggy sue got married, barry miller, richard norvik
+actress, peggy sue got married, catherine hicks, carol heath
+actress, peggy sue got married, joan allen, maddy nagle
+actor, peggy sue got married, kevin j o connor, michael fitzsimmons
+actor, peggy sue got married, jim carrey, walter getz
+actress, peggy sue got married, lisa jane persky, delores dodge
+actress, peggy sue got married, lucinda jenney, rosalie testa
+actor, peggy sue got married, wil shriner, arthur nagle
+actress, peggy sue got married, barbara harris, evelyn kelcher
+actor, peggy sue got married, don murray, jack kelcher
+actress, peggy sue got married, sofia coppola, nancy kelcher
+actress, peggy sue got married, maureen o sullivan, elizabeth alvorg
+actor, peggy sue got married, leon ames, barney alvorg
+actor, peggy sue got married, randy bourne, scott bodell
+actress, peggy sue got married, helen hunt, beth bodell
+actor, peggy sue got married, don stark, doug snell
+actor, peggy sue got married, marshall crenshaw, reunion band
+actor, peggy sue got married, chris donato, reunion band
+actor, peggy sue got married, robert crenshaw, reunion band
+actor, peggy sue got married, tom teeley, reunion band
+actor, peggy sue got married, graham maby, reunion band
+actor, peggy sue got married, ken grantham, mr snelgrove
+actress, peggy sue got married, ginger taylor, janet
+actress, peggy sue got married, sigrid wurschmidt, sharon
+actor, peggy sue got married, glenn withrow, terry
+actor, peggy sue got married, harry basil, leon
+actor, peggy sue got married, john carradine, leo
+actress, peggy sue got married, sachi parker, lisa
+actress, peggy sue got married, vivien straus, sandy
+actor, peggy sue got married, morgan upton, mr gilford
+actor, peggy sue got married, dr lewis leibovich, dr daly
+actor, peggy sue got married, bill bonham, drunk
+actor, peggy sue got married, joe lerer, drunk creep
+actress, peggy sue got married, barbara oliver, nurse
+actor, peggy sue got married, martin scott, the four mations
+actor, peggy sue got married, marcus scott, the four mations
+actor, peggy sue got married, carl lockett, the four mations
+actor, peggy sue got married, tony saunders, the four mations
+actor, peggy sue got married, vincent lars, the four mations
+actor, peggy sue got married, larry e vann, the four mations
+actor, peggy sue got married, lawrence menkin, elderly gentleman
+actor, peggy sue got married, daniel r suhart, chinese waiter
+actor, peggy sue got married, leslie hilsinger, majorette
+actor, peggy sue got married, al nalbandian, lodge member
+actor, peggy sue got married, dan leegant, lodge member
+actor, peggy sue got married, ron cook, lodge member
+actress, peggy sue got married, mary leichtling, reunion receptionist
+actress, peggy sue got married, cynthia brian, reunion woman 2
+actor, peggy sue got married, michael x martin,
+actress, peggy sue got married, mary mitchel,
+
+movie, raising arizona, 1987
+director, raising arizona, ethan coen
+director, raising arizona, joel coen
+actor, raising arizona, nicolas cage, h i mcdonnough
+actress, raising arizona, holly hunter, edwina ed mcdonnough
+actor, raising arizona, trey wilson, nathan arizona huffhines sr
+actor, raising arizona, john goodman, gale snoats
+actor, raising arizona, william forsythe, evelle snoats
+actor, raising arizona, sam mcmurray, glen
+actress, raising arizona, frances mcdormand, dot
+actor, raising arizona, randall tex cobb, leonard smalls
+actor, raising arizona, t j kuhn, nathan arizona jr
+actress, raising arizona, lynne dumin kitei, florence arizona
+actor, raising arizona, peter benedek, prison counselor
+actor, raising arizona, charles lew smith, nice old grocery man
+actor, raising arizona, warren keith, younger fbi agent
+actor, raising arizona, henry kendrick, older fbi agent
+actor, raising arizona, sidney dawson, moses ear bending cellmate
+actor, raising arizona, richard blake, parole board chairman
+actor, raising arizona, troy nabors, parole board member
+actress, raising arizona, mary seibel, parole board member
+actor, raising arizona, john o donnal, hayseed in the pickup
+actor, raising arizona, keith jandacek, whitey
+actor, raising arizona, warren forsythe, minister
+actor, raising arizona, ruben young, trapped convict
+actor, raising arizona, dennis sullivan, policeman in arizona house
+actor, raising arizona, richard alexander, policeman in arizona house
+actor, raising arizona, rusty lee, feisty hayseed
+actor, raising arizona, james yeater, fingerprint technician
+actor, raising arizona, bill andres, reporter
+actor, raising arizona, carver barns, reporter
+actress, raising arizona, margaret h mccormack, unpainted arizona secretary
+actor, raising arizona, bill rocz, newscaster
+actress, raising arizona, mary f glenn, payroll cashier
+actor, raising arizona, jeremy babendure, scamp with squirt gun
+actor, raising arizona, bill dobbins, adoption agent
+actor, raising arizona, ralph norton, gynecologist
+actor, raising arizona, henry tank, mopping convict
+actor, raising arizona, frank outlaw, supermarket manager
+actor, raising arizona, todd michael rodgers, varsity nathan jr
+actor, raising arizona, m emmet walsh, machine shop ear bender
+actor, raising arizona, robert gray, glen and dot s kid
+actress, raising arizona, katie thrasher, glen and dot s kid
+actor, raising arizona, derek russell, glen and dot s kid
+actress, raising arizona, nicole russell, glen and dot s kid
+actor, raising arizona, zachary sanders, glen and dot s kid
+actress, raising arizona, noell sanders, glen and dot s kid
+actor, raising arizona, cody ranger, arizona quint
+actor, raising arizona, jeremy arendt, arizona quint
+actress, raising arizona, ashley hammon, arizona quint
+actress, raising arizona, crystal hiller, arizona quint
+actress, raising arizona, olivia hughes, arizona quint
+actress, raising arizona, emily malin, arizona quint
+actress, raising arizona, melanie malin, arizona quint
+actor, raising arizona, craig mclaughlin, arizona quint
+actor, raising arizona, adam savageau, arizona quint
+actor, raising arizona, benjamin savageau, arizona quint
+actor, raising arizona, david schneider, arizona quint
+actor, raising arizona, michael stewart, arizona quint
+actor, raising arizona, william preston robertson, amazing voice
+actor, raising arizona, ron francis cobert, reporter 1
+
+movie, rumble fish, 1983
+director, rumble fish, francis ford coppola
+actor, rumble fish, matt dillon, rusty james
+actor, rumble fish, mickey rourke, the motorcycle boy
+actress, rumble fish, diane lane, patty
+actor, rumble fish, dennis hopper, father
+actress, rumble fish, diana scarwid, cassandra
+actor, rumble fish, vincent spano, steve
+actor, rumble fish, nicolas cage, smokey
+actor, rumble fish, chris penn, b j jackson
+actor, rumble fish, laurence fishburne, midget
+actor, rumble fish, william smith, patterson the cop
+actor, rumble fish, michael higgins, mr harrigan
+actor, rumble fish, glenn withrow, biff wilcox
+actor, rumble fish, tom waits, benny
+actor, rumble fish, herb rice, black pool player
+actress, rumble fish, maybelle wallace, late pass clerk
+actress, rumble fish, nona manning, patty s mom
+actress, rumble fish, sofia coppola, donna patty s sister
+actor, rumble fish, gian carlo coppola, cousin james
+actress, rumble fish, s e hinton, hooker on strip
+actor, rumble fish, emmett brown, mr dobson
+actor, rumble fish, tracey walter, alley mugger 1
+actor, rumble fish, lance guecia, alley mugger 2
+actor, rumble fish, bob maras, policeman
+actor, rumble fish, j t turner, math teacher
+actress, rumble fish, keeva clayton, lake girl 1
+actress, rumble fish, kirsten hayden, lake girl 2
+actress, rumble fish, karen parker, lake girl 3
+actress, rumble fish, sussannah darcy, lake girl 4
+actress, rumble fish, kristi somers, lake girl 5
+actress, rumble fish, heather langenkamp,
+
+movie, spies like us, 1985
+director, spies like us, john landis
+actor, spies like us, chevy chase, emmett fitz hume
+actor, spies like us, dan aykroyd, austin millbarge
+actor, spies like us, steve forrest, general sline
+actress, spies like us, donna dixon, karen boyer
+actor, spies like us, bruce davison, ruby
+actor, spies like us, bernie casey, colonel rhumbus
+actor, spies like us, william prince, keyes
+actor, spies like us, tom hatten, general miegs
+actor, spies like us, frank oz, test monitor
+actor, spies like us, charles mckeown, jerry hadley
+actor, spies like us, james daughton, bob hodges
+actor, spies like us, jim staahl, bud schnelker
+actress, spies like us, vanessa angel, russian rocket crew
+actress, spies like us, svetlana plotnikova, russian rocket crew
+actor, spies like us, bjarne thomsen, russian rocket crew
+actor, spies like us, sergei rousakov, russian rocket crew
+actor, spies like us, garrick dombrovski, russian rocket crew
+actor, spies like us, terry gilliam, dr imhaus
+actor, spies like us, costa gavras, tadzhik highway patrol
+actor, spies like us, seva novgorodtsev, tadzhik highway patrol
+actor, spies like us, stephen hoye, captain hefling
+actor, spies like us, ray harryhausen, dr marston
+actor, spies like us, mark stewart, ace tomato courier
+actor, spies like us, sean daniel, ace tomato driver
+actor, spies like us, jeff harding, fitz hume s associate
+actress, spies like us, heidi sorenson, alice fitz hume s supervisor
+actress, spies like us, margo random, reporter
+actor, spies like us, douglas lambert, reporter
+actor, spies like us, christopher malcolm, jumpmaster
+actor, spies like us, terrance conder, soldier 1
+actor, spies like us, matt frewer, soldier 2
+actor, spies like us, tony cyrus, the khan
+actress, spies like us, gusti bogok, dr la fong
+actor, spies like us, derek meddings, dr stinson
+actor, spies like us, robert paynter, dr gill
+actor, spies like us, bob hope, golfer
+actor, spies like us, gurdial sira, the khan s brother
+actor, spies like us, joel coen, drive in security
+actor, spies like us, sam raimi, drive in security
+actor, spies like us, michael apted, ace tomato agent
+actor, spies like us, b b king, ace tomato agent
+actor, spies like us, larry cohen, ace tomato agent
+actor, spies like us, martin brest, drive in security
+actor, spies like us, ricco ross, wamp guard
+actor, spies like us, richard sharpe, wamp technician
+actor, spies like us, stuart milligan, wamp technician
+actress, spies like us, sally anlauf, wamp technician
+actor, spies like us, john daveikis, russian border guard
+actor, spies like us, laurence bilzerian, russian border guard
+actor, spies like us, richard kruk, russian border guard
+actress, spies like us, heather henson, teenage girl
+actress, spies like us, erin folsey, teenage girl
+actor, spies like us, bob swaim, special forces commander
+actor, spies like us, edwin newman, himself
+actress, spies like us, nancy gair, student

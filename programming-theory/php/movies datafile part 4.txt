@@ -1,0 +1,373 @@
+movie, cq, 2001
+director, cq, roman coppola
+actor, cq, jeremy davies, paul
+actress, cq, angela lindvall, dragonfly valentine
+actress, cq, lodie bouchez, marlene
+actor, cq, g rard depardieu, andrezej
+actor, cq, giancarlo giannini, enzo
+actor, cq, massimo ghini, fabrizio
+actor, cq, jason schwartzman, felix demarco
+actor, cq, billy zane, mr e
+actor, cq, john phillip law, chairman
+actor, cq, silvio muccino, pippo
+actor, cq, dean stockwell, dr ballard
+actress, cq, natalia vodianova, brigit
+actor, cq, bernard verley, trailer voiceover actor
+actor, cq, l m kit carson, fantasy critic
+actor, cq, chris bearne, fantasy critic
+actor, cq, jean paul scarpitta, fantasy critic
+actor, cq, nicolas saada, fantasy critic
+actor, cq, remi fourquin, fantasy critic
+actor, cq, jean claude schlim, fantasy critic
+actress, cq, sascha ley, fantasy critic
+actor, cq, jacques deglas, fantasy critic
+actor, cq, gilles soeder, fantasy critic
+actor, cq, julian nest, festival critic
+actress, cq, greta seacat, festival critic
+actress, cq, barbara sarafian, festival critic
+actor, cq, leslie woodhall, board member
+actor, cq, jean baptiste kremer, board member
+actor, cq, franck sasonoff, angry man at riots
+actor, cq, jean fran ois wolff, party man
+actor, cq, eric connor, long haired actor at party
+actress, cq, diana gartner, cute model at party
+actress, cq, st phanie gesnel, actress at party
+actor, cq, fr d ric de brabant, steward
+actor, cq, shawn mortensen, revolutionary guard
+actor, cq, matthieu tonetti, revolutionary guard
+actress, cq, ann maes, vampire actress
+actress, cq, gintare parulyte, vampire actress
+actress, cq, caroline lies, vampire actress
+actress, cq, stoyanka tanya gospodinova, vampire actress
+actress, cq, magali dahan, vampire actress
+actress, cq, natalie broker, vampire actress
+actress, cq, wanda perdelwitz, vampire actress
+actor, cq, mark thompson ashworth, lead ghoul
+actor, cq, pieter riemens, assistant director
+actress, cq, federica citarella, talkative girl
+actor, cq, andrea cormaci, soldier boy
+actress, cq, corinne terenzi, teen lover
+actress, cq, sofia coppola, enzo s mistress
+actor, cq, emidio la vella, italian actor
+actor, cq, massimo schina, friendly guy at party
+actress, cq, caroline colombini, girl in miniskirt
+actress, cq, rosa pianeta, woman in fiat
+actor, cq, christophe chrompin, jealous boyfriend
+actor, cq, romain duris, hippie filmmaker
+actor, cq, chris anthony, second assistant director
+actor, cq, dean tavoularis, man at screening
+
+movie, crimewave, 1985
+director, crimewave, sam raimi
+actress, crimewave, louise lasser, helene trend
+actor, crimewave, paul l smith, faron crush
+actor, crimewave, brion james, arthur coddish
+actress, crimewave, sheree j wilson, nancy
+actor, crimewave, edward r pressman, ernest trend
+actor, crimewave, bruce campbell, renaldo the heel
+actor, crimewave, reed birney, vic ajax
+actor, crimewave, richard bright, officer brennan
+actor, crimewave, antonio fargas, blind man
+actor, crimewave, hamid dana, donald odegard
+actor, crimewave, john hardy, mr yarman
+actor, crimewave, emil sitka, colonel rodgers
+actor, crimewave, hal youngblood, jack elroy
+actor, crimewave, sean farley, jack elroy jr
+actor, crimewave, richard demanincor, officer garvey
+actress, crimewave, carrie hall, cheap dish
+actor, crimewave, wiley harker, governor
+actor, crimewave, julius harris, hardened convict
+actor, crimewave, ralph drischell, executioner
+actor, crimewave, robert symonds, guard 1
+actor, crimewave, patrick stack, guard 2
+actor, crimewave, philip a gillis, priest
+actress, crimewave, bridget hoffman, nun
+actress, crimewave, ann marie gillis, nun
+actress, crimewave, frances mcdormand, nun
+actress, crimewave, carol brinn, old woman
+actor, crimewave, matthew taylor, muscleman
+actor, crimewave, perry mallette, grizzled veteran
+actor, crimewave, chuck gaidica, weatherman
+actor, crimewave, jimmie launce, announcer
+actor, crimewave, joseph french, bandleader
+actor, crimewave, ted raimi, waiter
+actor, crimewave, dennis chaitlin, fat waiter
+actor, crimewave, joel coen, reporter at execution
+actress, crimewave, julie harris,
+actor, crimewave, dan nelson, waiter
+
+movie, down from the mountain, 2000
+director, down from the mountain, nick doob
+director, down from the mountain, chris hegedus
+director, down from the mountain, d a pennebaker
+actress, down from the mountain, evelyn cox, herself
+actor, down from the mountain, sidney cox, himself
+actress, down from the mountain, suzanne cox, herself
+actor, down from the mountain, willard cox, himself
+actor, down from the mountain, nathan best, himself
+actor, down from the mountain, issac freeman, himself
+actor, down from the mountain, robert hamlett, himself
+actor, down from the mountain, joseph rice, himself
+actor, down from the mountain, wilson waters jr, himself
+actor, down from the mountain, john hartford, himself
+actor, down from the mountain, larry perkins, himself
+actress, down from the mountain, emmylou harris, herself
+actor, down from the mountain, chris thomas king, himself
+actress, down from the mountain, alison krauss, herself
+actor, down from the mountain, colin linden, himself
+actor, down from the mountain, pat enright, himself
+actor, down from the mountain, gene libbea, himself
+actor, down from the mountain, alan o bryant, himself
+actor, down from the mountain, roland white, himself
+actress, down from the mountain, hannah peasall, herself
+actress, down from the mountain, leah peasall, herself
+actress, down from the mountain, sarah peasall, herself
+actor, down from the mountain, ralph stanley, himself
+actress, down from the mountain, gillian welch, herself
+actor, down from the mountain, david rawlings, himself
+actor, down from the mountain, buck white, himself
+actress, down from the mountain, cheryl white, herself
+actress, down from the mountain, sharon white, herself
+actor, down from the mountain, barry bales, house band bass
+actor, down from the mountain, ron block, house band banjo
+actor, down from the mountain, mike compton, house band mandolin
+actor, down from the mountain, jerry douglas, house band dobro
+actor, down from the mountain, stuart duncan, house band fiddle
+actor, down from the mountain, chris sharp, house band guitar
+actor, down from the mountain, dan tyminski, house band guitar
+actor, down from the mountain, t bone burnett, himself
+actor, down from the mountain, ethan coen, himself
+actor, down from the mountain, joel coen, himself
+actress, down from the mountain, holly hunter, herself
+actor, down from the mountain, tim blake nelson, himself
+actor, down from the mountain, billy bob thornton, audience member
+actor, down from the mountain, wes motley, audience member
+actress, down from the mountain, tamara trexler, audience member
+
+movie, fargo, 1996
+director, fargo, ethan coen
+director, fargo, joel coen
+actor, fargo, william h macy, jerry lundegaard
+actor, fargo, steve buscemi, carl showalter
+actor, fargo, peter stormare, gaear grimsrud
+actress, fargo, kristin rudr d, jean lundegaard
+actor, fargo, harve presnell, wade gustafson
+actor, fargo, tony denman, scotty lundegaard
+actor, fargo, gary houston, irate customer
+actress, fargo, sally wingert, irate customer s wife
+actor, fargo, kurt schweickhardt, car salesman
+actress, fargo, larissa kokernot, hooker 1
+actress, fargo, melissa peterman, hooker 2
+actor, fargo, steve reevis, shep proudfoot
+actor, fargo, warren keith, reilly diefenbach
+actor, fargo, steve edelman, morning show host
+actress, fargo, sharon anderson, morning show hostess
+actor, fargo, larry brandenburg, stan grossman
+actor, fargo, james gaulke, state trooper
+actor, fargo, j todd anderson, victim in the field
+actress, fargo, michelle suzanne ledoux, victim in car
+actress, fargo, frances mcdormand, marge gunderson
+actor, fargo, john carroll lynch, norm gunderson
+actor, fargo, bruce bohne, lou
+actress, fargo, petra boden, cashier
+actor, fargo, steve park, mike yanagita
+actor, fargo, wayne a evenson, customer
+actor, fargo, cliff rakerd, officer olson
+actress, fargo, jessica shepherd, hotel clerk
+actor, fargo, peter schmitz, airport lot attendant
+actor, fargo, steven i schafer, mechanic
+actress, fargo, michelle hutchison, escort
+actor, fargo, david s lomax, man in hallway
+actor, fargo, jos feliciano, himself
+actor, fargo, bix skahill, night parking attendant
+actor, fargo, bain boehlke, mr mohra
+actress, fargo, rose stockton, valerie
+actor, fargo, robert ozasky, bismarck cop 1
+actor, fargo, john bandemer, bismarck cop 2
+actor, fargo, don wescott, bark beetle narrator
+actor, fargo, bruce campbell, soap opera actor
+actor, fargo, clifford nelson, heavyset man in bar
+
+movie, the firm, 1993
+director, the firm, sydney pollack
+actor, the firm, tom cruise, mitch mcdeere
+actress, the firm, jeanne tripplehorn, abby mcdeere
+actor, the firm, gene hackman, avery tolar
+actor, the firm, hal holbrook, oliver lambert
+actor, the firm, terry kinney, lamar quinn
+actor, the firm, wilford brimley, william devasher
+actor, the firm, ed harris, wayne tarrance
+actress, the firm, holly hunter, tammy hemphill
+actor, the firm, david strathairn, ray mcdeere
+actor, the firm, gary busey, eddie lomax
+actor, the firm, steven hill, f denton voyles
+actor, the firm, tobin bell, the nordic man
+actress, the firm, barbara garrick, kay quinn
+actor, the firm, jerry hardin, royce mcknight
+actor, the firm, paul calderon, thomas richie
+actor, the firm, jerry weintraub, sonny capps
+actor, the firm, sullivan walker, barry abanks
+actress, the firm, karina lombard, young woman on beach
+actress, the firm, margo martindale, nina huff
+actor, the firm, john beal, nathan locke
+actor, the firm, dean norris, the squat man
+actor, the firm, lou walker, frank mulholland
+actress, the firm, debbie turner, rental agent
+actor, the firm, tommy cresswell, wally hudson
+actor, the firm, david a kimball, randall dunbar
+actor, the firm, don jones, attorney
+actor, the firm, michael allen, attorney
+actor, the firm, levi frazier jr, restaurant waiter
+actor, the firm, brian casey, telephone installer
+actor, the firm, reverend william j parham, minister
+actor, the firm, victor nelson, cafe waiter
+actor, the firm, richard ranta, congressman billings
+actress, the firm, janie paris, madge
+actor, the firm, frank crawford, judge
+actor, the firm, bart whiteman, dutch
+actor, the firm, david dwyer, prison guard
+actor, the firm, mark w johnson, fbi agent
+actor, the firm, jerry chipman, fbi agent
+actor, the firm, jimmy lackie, technician
+actor, the firm, afemo omilami, cotton truck driver
+actor, the firm, clint smith, cotton truck driver
+actress, the firm, susan elliott, river museum guide
+actress, the firm, erin branham, river museum guide
+actor, the firm, ed connelly, pilot
+actress, the firm, joey anderson, ruth
+actress, the firm, deborah thomas, quinns maid
+actor, the firm, tommy matthews, elvis aaron hemphill
+actor, the firm, chris schadrack, lawyer recruiter
+actor, the firm, buck ford, lawyer recruiter
+actor, the firm, jonathan kaplan, lawyer recruiter
+actress, the firm, rebecca glenn, young woman at patio bar
+actress, the firm, terri welles, woman dancing with avery
+actor, the firm, greg goossen, vietnam veteran
+actress, the firm, jeane aufdenberg, car rental agent
+actor, the firm, william r booth, seaplane pilot
+actor, the firm, ollie nightingale, restaurant singer
+actor, the firm, teenie hodges, restaurant lead guitarist
+actor, the firm, little jimmy king, memphis street musician
+actor, the firm, james white, singer at hyatt
+actor, the firm, shan brisendine, furniture mover
+actor, the firm, harry dach, garbage truck driver
+actress, the firm, julia hayes, girl in bar
+actor, the firm, tom mccrory, associate
+actor, the firm, paul sorvino, tommie morolto
+actor, the firm, joe viterelli, joey morolto
+
+movie, frankenweenie, 1984
+director, frankenweenie, tim burton
+actress, frankenweenie, shelley duvall, susan frankenstein
+actor, frankenweenie, daniel stern, ben frankenstein
+actor, frankenweenie, barret oliver, victor frankenstein
+actor, frankenweenie, joseph maher, mr chambers
+actress, frankenweenie, roz braverman, mrs epstein
+actor, frankenweenie, paul bartel, mr walsh
+actress, frankenweenie, sofia coppola, anne chambers
+actor, frankenweenie, jason hervey, frank dale
+actor, frankenweenie, paul c scott, mike anderson
+actress, frankenweenie, helen boll, mrs curtis
+actor, frankenweenie, sparky, sparky
+actor, frankenweenie, rusty james, raymond
+
+movie, ghost busters, 1984
+director, ghost busters, ivan reitman
+actor, ghost busters, bill murray, dr peter venkman
+actor, ghost busters, dan aykroyd, dr raymond stantz
+actress, ghost busters, sigourney weaver, dana barrett
+actor, ghost busters, harold ramis, dr egon spengler
+actor, ghost busters, rick moranis, louis tully
+actress, ghost busters, annie potts, janine melnitz
+actor, ghost busters, william atherton, walter peck wally wick
+actor, ghost busters, ernie hudson, winston zeddmore
+actor, ghost busters, david margulies, mayor
+actor, ghost busters, steven tash, male student
+actress, ghost busters, jennifer runyon, female student
+actress, ghost busters, slavitza jovan, gozer
+actor, ghost busters, michael ensign, hotel manager
+actress, ghost busters, alice drummond, librarian
+actor, ghost busters, jordan charney, dean yeager
+actor, ghost busters, timothy carhart, violinist
+actor, ghost busters, john rothman, library administrator
+actor, ghost busters, tom mcdermott, archbishop
+actor, ghost busters, roger grimsby, himself
+actor, ghost busters, larry king, himself
+actor, ghost busters, joe franklin, himself
+actor, ghost busters, casey kasem, himself
+actor, ghost busters, john ring, fire commissioner
+actor, ghost busters, norman matlock, police commissioner
+actor, ghost busters, joe cirillo, police captain
+actor, ghost busters, joe schmieg, police seargeant
+actor, ghost busters, reginald veljohnson, jail guard
+actress, ghost busters, rhoda gemignani, real estate woman
+actor, ghost busters, murray rubin, man at elevator
+actor, ghost busters, larry dilg, con edison man
+actor, ghost busters, danny stone, coachman
+actress, ghost busters, patty dworkin, woman at party
+actress, ghost busters, jean kasem, tall woman at party
+actor, ghost busters, lenny del genio, doorman
+actress, ghost busters, frances e nealy, chambermaid
+actor, ghost busters, sam moses, hot dog vendor
+actor, ghost busters, christopher wynkoop, tv reporter
+actor, ghost busters, winston may, businessman in cab
+actor, ghost busters, tommy hollis, mayor s aide
+actress, ghost busters, eda reiss merin, louis s neighbor
+actor, ghost busters, ric mancini, policeman at apartment
+actress, ghost busters, kathryn janssen, mrs van hoffman
+actor, ghost busters, stanley grover, reporter
+actress, ghost busters, carol ann henry, reporter
+actor, ghost busters, james hardie, reporter
+actress, ghost busters, frances turner, reporter
+actress, ghost busters, nancy kelly, reporter
+actor, ghost busters, paul trafas, ted fleming
+actress, ghost busters, cheryl birchenfield, annette fleming
+actress, ghost busters, ruth oliver, library ghost
+actress, ghost busters, kymberly herrin, dream ghost
+actor, ghost busters, larry bilzarian, prisoner
+actor, ghost busters, matteo cafiso, boy at hot dog stand
+actress, ghost busters, paddi edwards, gozer
+actress, ghost busters, deborah gibson, birthday girl in tavern on the green
+actor, ghost busters, charles levin, honeymooner
+actor, ghost busters, joseph marzano, man in taxi
+actor, ghost busters, joe medjuck, man at library
+actor, ghost busters, frank patton, city hall cop
+actor, ghost busters, harrison ray, terror dog
+actor, ghost busters, ivan reitman, zuul slimer
+actor, ghost busters, mario todisco, prisoner
+actor, ghost busters, bill walton, himself
+
+movie, girl with a pearl earring, 2003
+director, girl with a pearl earring, peter webber
+actor, girl with a pearl earring, colin firth, johannes vermeer
+actress, girl with a pearl earring, scarlett johansson, griet
+actor, girl with a pearl earring, tom wilkinson, van ruijven
+actress, girl with a pearl earring, judy parfitt, maria thins
+actor, girl with a pearl earring, cillian murphy, pieter
+actress, girl with a pearl earring, essie davis, catharina vermeer
+actress, girl with a pearl earring, joanna scanlan, tanneke
+actress, girl with a pearl earring, alakina mann, cornelia vermeer
+actor, girl with a pearl earring, chris mchallem, griet s father
+actress, girl with a pearl earring, gabrielle reidy, griet s mother
+actor, girl with a pearl earring, rollo weeks, frans
+actress, girl with a pearl earring, anna popplewell, maertge
+actress, girl with a pearl earring, ana s nepper, lisbeth
+actress, girl with a pearl earring, melanie meyfroid, aleydis
+actor, girl with a pearl earring, nathan nepper, johannes
+actress, girl with a pearl earring, lola carpenter, baby franciscus
+actress, girl with a pearl earring, charlotte carpenter, baby franciscus
+actress, girl with a pearl earring, olivia chauveau, baby franciscus
+actor, girl with a pearl earring, geoff bell, paul the butcher
+actress, girl with a pearl earring, virginie colin, emilie van ruijven
+actress, girl with a pearl earring, sarah drews, van ruijven s daughter
+actress, girl with a pearl earring, christelle bulckaen, wet nurse
+actor, girl with a pearl earring, john mcenery, apothecary
+actress, girl with a pearl earring, gintare parulyte, model
+actress, girl with a pearl earring, claire johnston, white haired woman
+actor, girl with a pearl earring, marc maes, old gentleman
+actor, girl with a pearl earring, robert sibenaler, priest
+actor, girl with a pearl earring, dustin james, servant 1
+actor, girl with a pearl earring, joe reavis, servant 2
+actor, girl with a pearl earring, martin serene, sergeant
+actor, girl with a pearl earring, chris kelly, gay blade
+actor, girl with a pearl earring, leslie woodhall, neighbour

@@ -1,0 +1,382 @@
+movie, american beauty, 1999
+director, american beauty, sam mendes
+actor, american beauty, kevin spacey, lester burnham
+actress, american beauty, annette bening, carolyn burnham
+actress, american beauty, thora birch, jane burnham
+actor, american beauty, wes bentley, ricky fitts
+actress, american beauty, mena suvari, angela hayes
+actor, american beauty, chris cooper, col frank fitts usmc
+actor, american beauty, peter gallagher, buddy kane
+actress, american beauty, allison janney, barbara fitts
+actor, american beauty, scott bakula, jim olmeyer
+actor, american beauty, sam robards, jim berkley
+actor, american beauty, barry del sherman, brad dupree
+actress, american beauty, ara celi, sale house woman 1
+actor, american beauty, john cho, sale house man 1
+actor, american beauty, fort atkinson, sale house man 2
+actress, american beauty, sue casey, sale house woman 2
+actor, american beauty, kent faulcon, sale house man 3
+actress, american beauty, brenda wehle, sale house woman 4
+actress, american beauty, lisa cloud, sale house woman 5
+actress, american beauty, alison faulk, spartanette 1
+actress, american beauty, krista goodsitt, spartanette 2
+actress, american beauty, lily houtkin, spartanette 3
+actress, american beauty, carolina lancaster, spartanette 4
+actress, american beauty, romana leah, spartanette 5
+actress, american beauty, chekeshka van putten, spartanette 6
+actress, american beauty, emily zachary, spartanette 7
+actress, american beauty, nancy anderson, spartanette 8
+actress, american beauty, reshma gajjar, spartanette 9
+actress, american beauty, stephanie rizzo, spartanette 10
+actress, american beauty, heather joy sher, playground girl 1
+actress, american beauty, chelsea hertford, playground girl 2
+actress, american beauty, amber smith, christy kane
+actor, american beauty, joel mccrary, catering boss
+actress, american beauty, marissa jaret winokur, mr smiley s counter girl
+actor, american beauty, dennis anderson, mr smiley s manager
+actor, american beauty, matthew kimbrough, firing range attendant
+actress, american beauty, erin cathryn strubbe, young jane burnham
+actress, american beauty, elaine corral kendall, newscaster
+
+movie, anna, 1987
+director, anna, yurek bogayevicz
+actress, anna, sally kirkland, anna
+actor, anna, robert fields, daniel
+actress, anna, paulina porizkova, krystyna
+actor, anna, gibby brand, director 1
+actor, anna, john robert tillotson, director 2
+actress, anna, julianne gilliam, woman author
+actor, anna, joe aufiery, stage manager
+actor, anna, lance davis, assistant 1
+actress, anna, deirdre o connell, assistant 2
+actress, anna, ruth maleczech, woman 1 woman named gloria
+actress, anna, holly villaire, woman 2 woman with bird
+actress, anna, shirl bernheim, woman 3 woman in white veil
+actress, anna, ren e coleman, woman 4 woman in bonnet
+actress, anna, gabriela farrar, woman 5 woman in black
+actress, anna, jordana levine, woman 6 woman in turban
+actress, anna, rosalie traina, woman 7 woman in gold
+actress, anna, maggie wagner, actress d
+actor, anna, charles randall, agent
+actress, anna, mimi weddell, agent s secretary
+actor, anna, larry pine, baskin
+actress, anna, lola pashalinski, producer
+actor, anna, stefan schnabel, professor
+actor, anna, steven gilborn, tonda
+actor, anna, rand stone, george
+actress, anna, geena goodwin, daniel s mother
+actor, anna, david r ellis, daniel s father
+actor, anna, brian kohn, jonathan
+actress, anna, caroline aaron, interviewer
+actor, anna, vasek simek, czech demonstrator 1
+actor, anna, paul leski, czech demonstrator 2
+actor, anna, larry attile, czech demonstrator 3
+actress, anna, sofia coppola, noodle
+actor, anna, theo mayes, dancing dishwasher
+actress, anna, nina port, dancing dishwasher
+
+movie, barton fink, 1991
+director, barton fink, ethan coen
+director, barton fink, joel coen
+actor, barton fink, john turturro, barton fink
+actor, barton fink, john goodman, charlie meadows
+actress, barton fink, judy davis, audrey taylor
+actor, barton fink, michael lerner, jack lipnick
+actor, barton fink, john mahoney, w p mayhew
+actor, barton fink, tony shalhoub, ben geisler
+actor, barton fink, jon polito, lou breeze
+actor, barton fink, steve buscemi, chet
+actor, barton fink, david warrilow, garland stanford
+actor, barton fink, richard portnow, detective mastrionotti
+actor, barton fink, christopher murney, detective deutsch
+actor, barton fink, i m hobson, derek
+actress, barton fink, meagen fay, poppy carnahan
+actor, barton fink, lance davis, richard st claire
+actor, barton fink, harry bugin, pete
+actor, barton fink, anthony gordon, maitre d
+actor, barton fink, jack denbo, stagehand
+actor, barton fink, max grod nchik, clapper boy
+actor, barton fink, robert beecher, referee
+actor, barton fink, darwyn swalve, wrestler
+actress, barton fink, gayle vance, geisler s secretary
+actor, barton fink, johnny judkins, sailor
+actress, barton fink, jana marie hupp, uso girl
+actress, barton fink, isabelle townsend, beauty
+actor, barton fink, william preston robertson, voice
+
+movie, the big lebowski, 1998
+director, the big lebowski, joel coen
+actor, the big lebowski, jeff bridges, jeffrey lebowski  the dude
+actor, the big lebowski, john goodman, walter sobchak
+actress, the big lebowski, julianne moore, maude lebowski
+actor, the big lebowski, steve buscemi, theodore donald donny kerabatsos
+actor, the big lebowski, david huddleston, jeffrey lebowski  the big lebowski
+actor, the big lebowski, philip seymour hoffman, brandt
+actress, the big lebowski, tara reid, bunny lebowski
+actor, the big lebowski, philip moon, woo treehorn thug
+actor, the big lebowski, mark pellegrino, blond treehorn thug
+actor, the big lebowski, peter stormare, uli kunkel nihilist 1  karl hungus
+actor, the big lebowski, flea, nihilist 2
+actor, the big lebowski, torsten voges, nihilist 3
+actor, the big lebowski, jimmie dale gilmore, smokey
+actor, the big lebowski, jack kehler, marty
+actor, the big lebowski, john turturro, jesus quintana
+actor, the big lebowski, james g hoosier, liam o brien
+actor, the big lebowski, carlos leon, maude s thug
+actor, the big lebowski, terrence burton, maude s thug
+actor, the big lebowski, richard gant, older cop
+actor, the big lebowski, christian clemenson, younger cop
+actor, the big lebowski, dom irrera, tony the chauffeur
+actor, the big lebowski, g rard l heureux, lebowski s chauffeur
+actor, the big lebowski, david thewlis, knox harrington
+actress, the big lebowski, lu elrod, coffee shop waitress
+actor, the big lebowski, mike gomez, auto circus cop
+actor, the big lebowski, peter siragusa, gary the bartender
+actor, the big lebowski, sam elliott, the stranger
+actor, the big lebowski, marshall manesh, doctor
+actor, the big lebowski, harry bugin, arthur digby sellers
+actor, the big lebowski, jesse flanagan, little larry sellers
+actress, the big lebowski, irene olga l pez, pilar sellers housekeeper
+actor, the big lebowski, luis colina, corvette owner
+actor, the big lebowski, ben gazzara, jackie treehorn
+actor, the big lebowski, leon russom, malibu police chief
+actor, the big lebowski, ajgie kirkland, cab driver
+actor, the big lebowski, jon polito, da fino
+actress, the big lebowski, aimee mann, nihilist woman
+actor, the big lebowski, jerry haleva, saddam hussein
+actress, the big lebowski, jennifer lamb, pancake waitress
+actor, the big lebowski, warren keith, funeral director
+actress, the big lebowski, wendy braun, chorine dancer
+actress, the big lebowski, asia carrera, sherry in logjammin
+actress, the big lebowski, kiva dawson, dancer
+actress, the big lebowski, robin jones, checker at ralph s
+actor, the big lebowski, paris themmen,
+
+movie, blade runner, 1997
+director, blade runner, joseph d kucan
+actor, blade runner, martin azarow, dino klein
+actor, blade runner, lloyd bell, additional voices
+actor, blade runner, mark benninghoffen, ray mccoy
+actor, blade runner, warren burton, runciter
+actress, blade runner, gwen castaldi, dispatcher and newscaster
+actress, blade runner, signy coleman, dektora
+actor, blade runner, gary columbo, general doll
+actor, blade runner, jason cottle, luthur lance photographer
+actor, blade runner, timothy dang, izo
+actor, blade runner, gerald deloff, additional voices
+actress, blade runner, lisa edelstein, crystal steele
+actor, blade runner, gary l freeman, additional voices
+actor, blade runner, jeff garlin, lieutenant edison guzza
+actor, blade runner, eric gooch, additional voices
+actor, blade runner, javier grajeda, gaff
+actor, blade runner, mike grayford, additional voices
+actress, blade runner, gloria hoffmann, mia
+actor, blade runner, james hong, dr chew
+actress, blade runner, kia huntzinger, additional voices
+actor, blade runner, anthony izzo, officer leary
+actor, blade runner, brion james, leon
+actress, blade runner, shelly johnson, additional voices
+actor, blade runner, terry jourden, spencer grigorian
+actor, blade runner, jerry kernion, holloway
+actor, blade runner, joseph d kucan, crazylegs larry
+actor, blade runner, jerry lan, murray
+actor, blade runner, michael b legg, additional voices
+actor, blade runner, demarlo lewis, additional voices
+actor, blade runner, tse cheng lo, additional voices
+actress, blade runner, etsuko mader, additional voices
+actor, blade runner, mohanned mansour, additional voices
+actress, blade runner, karen maruyama, fish dealer
+actor, blade runner, michael mcshane, marcus eisenduller
+actor, blade runner, alexander mervin, sadik
+actor, blade runner, tony mitch, governor kolvig
+actor, blade runner, toru nagai, howie lee
+actor, blade runner, dwight k okahara, additional voices
+actor, blade runner, gerald okamura, zuben
+actor, blade runner, bruno oliver, gordo frizz
+actress, blade runner, pauley perrette, lucy devlin
+actor, blade runner, mark rolston, clovis
+actor, blade runner, stephen root, early q
+actor, blade runner, william sanderson, j f sebastian
+actor, blade runner, vincent schiavelli, bullet bob
+actress, blade runner, rosalyn sidewater, isabella
+actor, blade runner, ron snow, blimp announcer
+actor, blade runner, stephen sorrentino, shoeshine man hasan
+actress, blade runner, jessica straus, answering machine female announcer
+actress, blade runner, melonie sung, additional voices
+actor, blade runner, iqbal theba, moraji
+actress, blade runner, myriam tubert, insect dealer
+actor, blade runner, joe turkel, eldon tyrell
+actor, blade runner, bill wade, hanoi
+actor, blade runner, jim walls, additional voices
+actress, blade runner, sandra wang, additional voices
+actor, blade runner, marc worden, baker
+actress, blade runner, sean young, rachael
+actor, blade runner, joe tippy zeoli, officer grayford
+
+movie, blood simple, 1984
+director, blood simple, ethan coen
+director, blood simple, joel coen
+actor, blood simple, john getz, ray
+actress, blood simple, frances mcdormand, abby
+actor, blood simple, dan hedaya, julian marty
+actor, blood simple, m emmet walsh, loren visser private detective
+actor, blood simple, samm art williams, meurice
+actress, blood simple, deborah neumann, debra
+actress, blood simple, raquel gavia, landlady
+actor, blood simple, van brooks, man from lubbock
+actor, blood simple, se or marco, mr garcia
+actor, blood simple, william creamer, old cracker
+actor, blood simple, loren bivens, strip bar exhorter
+actor, blood simple, bob mcadams, strip bar exhorter
+actress, blood simple, shannon sedwick, stripper
+actress, blood simple, nancy finger, girl on overlook
+actor, blood simple, william preston robertson, radio evangelist
+actress, blood simple, holly hunter, helene trend
+actor, blood simple, barry sonnenfeld, marty s vomiting
+
+movie, the cotton club, 1984
+director, the cotton club, francis ford coppola
+actor, the cotton club, richard gere, michael dixie dwyer
+actor, the cotton club, gregory hines, sandman williams
+actress, the cotton club, diane lane, vera cicero
+actress, the cotton club, lonette mckee, lila rose oliver
+actor, the cotton club, bob hoskins, owney madden
+actor, the cotton club, james remar, dutch schultz
+actor, the cotton club, nicolas cage, vincent dwyer
+actor, the cotton club, allen garfield, abbadabba berman
+actor, the cotton club, fred gwynne, frenchy demange
+actress, the cotton club, gwen verdon, tish dwyer
+actress, the cotton club, lisa jane persky, frances flegenheimer
+actor, the cotton club, maurice hines, clay williams
+actor, the cotton club, julian beck, sol weinstein
+actress, the cotton club, novella nelson, madame st clair
+actor, the cotton club, laurence fishburne, bumpy rhodes
+actor, the cotton club, john p ryan, joe flynn
+actor, the cotton club, tom waits, irving stark
+actor, the cotton club, ron karabatsos, mike best
+actor, the cotton club, glenn withrow, ed popke
+actress, the cotton club, jennifer grey, patsy dwyer
+actress, the cotton club, wynonna smith, winnie williams
+actress, the cotton club, thelma carpenter, norma williams
+actor, the cotton club, charles honi coles, suger coates
+actor, the cotton club, larry marshall, cab calloway minnie the moocher  lady with the fan and jitterbug sung by
+actor, the cotton club, joe dallesandro, charles lucky luciano
+actor, the cotton club, ed o ross, monk
+actor, the cotton club, frederick downs jr, sullen man
+actress, the cotton club, diane venora, gloria swanson
+actor, the cotton club, tucker smallwood, kid griffin
+actor, the cotton club, woody strode, holmes
+actor, the cotton club, bill graham, j w
+actor, the cotton club, dayton allen, solly
+actor, the cotton club, kim chan, ling
+actor, the cotton club, ed rowan, messiah
+actor, the cotton club, leonard termo, danny
+actor, the cotton club, george cantero, vince hood
+actor, the cotton club, brian tarantina, vince hood
+actor, the cotton club, bruce macvittie, vince hood
+actor, the cotton club, james russo, vince hood
+actor, the cotton club, giancarlo esposito, bumpy hood
+actor, the cotton club, bruce hubbard, bumpy hood
+actor, the cotton club, rony clanton, caspar holstein
+actor, the cotton club, damien leake, bub jewett
+actor, the cotton club, bill cobbs, big joe ison
+actor, the cotton club, joe lynn, marcial flores
+actor, the cotton club, oscar barnes, spanish henry
+actor, the cotton club, ed zang, hotel clerk
+actress, the cotton club, sandra beall, myrtle fay
+actor, the cotton club, zane mark, duke ellington
+actor, the cotton club, tom signorelli, butch murdock
+actor, the cotton club, paul herman, policeman 1
+actor, the cotton club, randle mell, policeman 2
+actor, the cotton club, steve vignari, trigger mike coppola
+actress, the cotton club, susan mechsner, gypsie
+actor, the cotton club, gregory rozakis, charlie chaplin
+actor, the cotton club, marc coppola, ted husing
+actress, the cotton club, norma jean darden, elda webb
+actor, the cotton club, robert earl jones, stage door joe
+actor, the cotton club, vincent jerosa, james cagney
+actress, the cotton club, rosalind harris, fanny brice
+actor, the cotton club, steve cafiso, child in street
+actor, the cotton club, john cafiso, child in street
+actress, the cotton club, sofia coppola, child in street
+actress, the cotton club, ninon digiorgio, child in street
+actress, the cotton club, daria hines, child in street
+actress, the cotton club, patricia letang, child in street
+actor, the cotton club, christopher lewis, child in street
+actress, the cotton club, danielle osborne, child in street
+actor, the cotton club, jason papalardo, child in street
+actor, the cotton club, demetrius pena, child in street
+actress, the cotton club, priscilla baskerville, creole love call sung by
+actress, the cotton club, ethel beatty, bandana babies lead vocal dancer
+actress, the cotton club, sydney goldsmith, barbecue bess sung by
+actor, the cotton club, james buster brown, hoofer
+actor, the cotton club, ralph brown, hoofer
+actor, the cotton club, harold cromer, hoofer
+actor, the cotton club, bubba gaines, hoofer
+actor, the cotton club, george hillman, hoofer
+actor, the cotton club, henry phace roberts, hoofer
+actor, the cotton club, howard sandman sims, hoofer
+actor, the cotton club, jimmy slyde, hoofer
+actor, the cotton club, henry letang, hoofer
+actor, the cotton club, charles young, hoofer
+actor, the cotton club, skip cunningham, tip tap  toe
+actor, the cotton club, luther fontaine, tip tap  toe
+actor, the cotton club, jan mickens, tip tap  toe
+actress, the cotton club, lydia abarca, dancer
+actress, the cotton club, sarita allen, dancer
+actress, the cotton club, tracey bass, dancer
+actress, the cotton club, jacquelyn bird, dancer
+actress, the cotton club, shirley black brown, dancer
+actress, the cotton club, jhoe breedlove, dancer
+actor, the cotton club, lester brown, dancer
+actress, the cotton club, leslie caldwell, dancer
+actress, the cotton club, melanie caldwell, dancer
+actor, the cotton club, benny clorey, dancer
+actress, the cotton club, sheri cowart, dancer
+actress, the cotton club, karen dibianco, dancer
+actress, the cotton club, cisco drayton, dancer
+actress, the cotton club, anne duquesnay, dancer
+actress, the cotton club, carla earle, dancer
+actress, the cotton club, wendy edmead, dancer
+actress, the cotton club, debbie fitts, dancer
+actor, the cotton club, ruddy l garner, dancer
+actress, the cotton club, ruthanna graves, dancer
+actress, the cotton club, terri griffin, dancer
+actress, the cotton club, robin harmon, dancer
+actress, the cotton club, jackee harree, dancer
+actress, the cotton club, sonya hensley, dancer
+actor, the cotton club, dave jackson, dancer
+actress, the cotton club, gail kendricks, dancer
+actress, the cotton club, christina kumi kimball, dancer
+actress, the cotton club, mary beth kurdock, dancer
+actor, the cotton club, alde lewis, dancer
+actress, the cotton club, paula lynn, dancer
+actor, the cotton club, bernard manners, dancer
+actor, the cotton club, bernard marsh, dancer
+actor, the cotton club, david mcharris, dancer
+actress, the cotton club, delores mcharris, dancer
+actress, the cotton club, vody najac, dancer
+actress, the cotton club, vya negromonte, dancer
+actress, the cotton club, alice anne oates, dancer
+actress, the cotton club, anne palmer, dancer
+actress, the cotton club, julie pars, dancer
+actress, the cotton club, antonia pettiford, dancer
+actress, the cotton club, valarie pettiford, dancer
+actress, the cotton club, janet powell, dancer
+actress, the cotton club, renee rodriguez, dancer
+actress, the cotton club, tracey ross, dancer
+actress, the cotton club, kiki shepard, dancer
+actor, the cotton club, gary thomas, dancer
+actor, the cotton club, mario van peebles, dancer
+actress, the cotton club, rima vetter, dancer
+actress, the cotton club, karen wadkins, dancer
+actor, the cotton club, ivery wheeler, dancer
+actor, the cotton club, donald williams, dancer
+actress, the cotton club, alexis wilson, dancer
+actor, the cotton club, george coutoupis, gangster
+actor, the cotton club, nicholas j giangiulio, screen test thug
+actress, the cotton club, suzanne kaaren, the duchess of park avenue
+actor, the cotton club, mark margolis, gunman sooting cage s character
+actor, the cotton club, kirk taylor, cotton club waiter
+actor, the cotton club, stan tracy, legs diamond s bodyguard
+actor, the cotton club, rick washburn, hitman

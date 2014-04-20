@@ -1,0 +1,315 @@
+movie, ghost world, 2000
+director, ghost world, terry zwigoff
+actress, ghost world, thora birch, enid
+actress, ghost world, scarlett johansson, rebecca
+actor, ghost world, steve buscemi, seymour
+actor, ghost world, brad renfro, josh
+actress, ghost world, illeana douglas, roberta allsworth
+actor, ghost world, bob balaban, enid s dad
+actress, ghost world, stacey travis, dana
+actor, ghost world, charles c stevenson jr, norman
+actor, ghost world, dave sheridan, doug
+actor, ghost world, tom mcgowan, joe
+actress, ghost world, debra azar, melora
+actor, ghost world, brian george, sidewinder boss
+actor, ghost world, pat healy, john ellis
+actress, ghost world, rini bell, graduation speaker
+actor, ghost world, t j thyne, todd
+actor, ghost world, ezra buzzington, weird al
+actress, ghost world, lindsey girardot, vanilla  graduation rapper
+actress, ghost world, joy bisco, jade  graduation rapper
+actress, ghost world, venus demilo, ebony  graduation rapper
+actress, ghost world, ashley peldon, margaret  art class
+actor, ghost world, chachi pittman, phillip  art class
+actress, ghost world, janece jordan, black girl  art class
+actress, ghost world, kaileigh martin, snotty girl  art class
+actor, ghost world, alexander fors, hippy boy  art class
+actor, ghost world, marc vann, jerome the angry guy  record collector
+actor, ghost world, james sie, steven the asian guy  record collector
+actor, ghost world, paul keith, paul the fussy guy  record collector
+actor, ghost world, david cross, gerrold the pushy guy  record collector
+actor, ghost world, j j bad boy jones, fred chatman  blues club
+actress, ghost world, dylan jones, red haired girl  blues club
+actor, ghost world, martin grey, m c  blues club
+actor, ghost world, steve pierson, blueshammer member  blues club
+actor, ghost world, jake la botz, blueshammer member  blues club
+actor, ghost world, johnny irion, blueshammer member  blues club
+actor, ghost world, nate wood, blueshammer member  blues club
+actor, ghost world, charles schneider, joey mccobb the stand up comic
+actor, ghost world, sid hillman, zine o phobia creep
+actor, ghost world, joshua wheeler, zine o phobia creep
+actor, ghost world, patrick fischler, masterpiece video clerk
+actor, ghost world, daniel graves, masterpiece video customer
+actor, ghost world, matt doherty, masterpiece video employee
+actor, ghost world, joel michaely, porno cashier
+actress, ghost world, debi derryberry, rude coffee customer
+actor, ghost world, joseph sikora, reggae fan
+actor, ghost world, brett gilbert, alien autopsy guy
+actor, ghost world, alex solowitz, cineplex manager
+actor, ghost world, tony ketcham, alcoholic customer
+actress, ghost world, mary bogue, popcorn customer
+actor, ghost world, brian jacobs, soda customer
+actor, ghost world, patrick yonally, garage sale hipster
+actress, ghost world, lauren bowles, angry garage sale woman
+actress, ghost world, lorna scott, phyllis the art show curator
+actor, ghost world, jeff murray, roberta s colleague
+actor, ghost world, jerry rector, dana s co worker
+actor, ghost world, john bunnell, seymour s boss
+actress, ghost world, diane salinger, psychiatrist
+actress, ghost world, anna berger, seymour s mother
+actor, ghost world, bruce glover, feldman the wheel chair guy
+actress, ghost world, joan m blair, lady crossing street slowly
+actor, ghost world, michael chanslor, orange colored sky keyboarder graduation band
+actress, ghost world, teri garr, maxine
+actor, ghost world, alan heitz, driver
+actor, ghost world, ernie hernandez, orange colored sky guitarist graduation band
+actor, ghost world, felice hernandez, orange colored sky singer graduation band
+actor, ghost world, larry klein, orange colored sky drummer graduation band
+actor, ghost world, james matusky, reggae fan 2
+actor, ghost world, edward t mcavoy, mr satanist
+actress, ghost world, margaret kontra palmer, lady at garage sale
+actor, ghost world, larry parker, orange colored sky bassist graduation band
+actor, ghost world, greg wendell reid, yuppie 1
+actress, ghost world, michelle marie white, mom in convenience store
+actor, ghost world, peter yarrow, himself
+
+movie, a good woman, 2004
+director, a good woman, mike barker
+actress, a good woman, helen hunt, mrs erlynne
+actress, a good woman, scarlett johansson, meg windermere
+actress, a good woman, milena vukotic, contessa lucchino
+actor, a good woman, stephen campbell moore, lord darlington
+actor, a good woman, mark umbers, robert windemere
+actor, a good woman, roger hammond, cecil
+actor, a good woman, john standing, dumby
+actor, a good woman, tom wilkinson, tuppy
+actress, a good woman, giorgia massetti, alessandra
+actress, a good woman, diana hardcastle, lady plymdale
+actress, a good woman, shara orano, francesca
+actress, a good woman, jane how, mrs stutfield
+actor, a good woman, bruce mcguire, waiter joe
+actor, a good woman, michael stromme, hotel desk clerk
+actor, a good woman, antonio barbaro, paulo
+actress, a good woman, valentina d uva, giuseppina glove shop girl
+actor, a good woman, filippo santoro, old man
+actor, a good woman, augusto zucchi, antique shop keeper
+actress, a good woman, carolina levi, dress shop salesgirl
+actress, a good woman, daniela stanga, dress shop owner
+actress, a good woman, arianna mansi, stella s maid 1
+actress, a good woman, camilla bertocci, stella s maid 2
+actress, a good woman, nichola aigner, mrs gowper
+
+movie, if lucy fell, 1996
+director, if lucy fell, eric schaeffer
+actress, if lucy fell, sarah jessica parker, lucy ackerman
+actor, if lucy fell, eric schaeffer, joe macgonaughgill
+actor, if lucy fell, ben stiller, bwick elias
+actress, if lucy fell, elle macpherson, jane lindquist
+actor, if lucy fell, james rebhorn, simon ackerman
+actor, if lucy fell, robert john burke, handsome man
+actor, if lucy fell, david thornton, ted
+actor, if lucy fell, bill sage, dick
+actor, if lucy fell, dominic chianese, al
+actress, if lucy fell, scarlett johansson, emily
+actor, if lucy fell, michael storms, sam
+actor, if lucy fell, jason myers, billy
+actress, if lucy fell, emily hart, eddy
+actor, if lucy fell, paul greco, rene
+actor, if lucy fell, mujibur rahman, counterman
+actor, if lucy fell, sirajul islam, counterman
+actor, if lucy fell, ben lin, chinese messenger
+actress, if lucy fell, alice spivak, elegant middle aged woman
+actress, if lucy fell, lisa gerstein, saleswoman
+actress, if lucy fell, molly schulman, kid
+actor, if lucy fell, peter walker, bag man
+actor, if lucy fell, bradley jenkel, neighbor
+actor, if lucy fell, brian keane, man in gallery
+actress, if lucy fell, amanda kravat, woman in park
+
+movie, home alone 3, 1997
+director, home alone 3, raja gosnell
+actor, home alone 3, alex d linz, alex pruitt
+actor, home alone 3, olek krupa, peter beaupre
+actress, home alone 3, rya kihlstedt, alice ribbons
+actor, home alone 3, lenny von dohlen, burton jernigan
+actor, home alone 3, david thornton, earl unger
+actress, home alone 3, haviland morris, karen pruitt
+actor, home alone 3, kevin kilner, jack pruitt
+actress, home alone 3, marian seldes, mrs hess
+actor, home alone 3, seth smith, stan pruitt
+actress, home alone 3, scarlett johansson, molly pruitt
+actor, home alone 3, christopher curry, agent stuckey
+actor, home alone 3, baxter harris, police captain
+actor, home alone 3, james saito, chinese mob boss
+actor, home alone 3, kevin gudahl, techie
+actor, home alone 3, richard hamilton, taxi driver
+actor, home alone 3, freeman coffey, recruiting officer
+actress, home alone 3, krista lally, dispatcher
+actor, home alone 3, neil flynn, police officer 1
+actor, home alone 3, tony mockus jr, police officer 2
+actor, home alone 3, pat healy, agent rogers
+actor, home alone 3, james chisem, police officer 3
+actor, home alone 3, darwin harris, photographer
+actress, home alone 3, adrianne duncan, flight attendant
+actress, home alone 3, sharon sachs, annoying woman
+actor, home alone 3, joseph luis caballero, security guard
+actor, home alone 3, larry c tankson, cart driver
+actress, home alone 3, jennifer a daley, police photographer 2
+actor, home alone 3, darren t knaus, parrot
+actress, home alone 3, caryn cheever, ticketing agent
+actress, home alone 3, sarah godshaw, latchkey girl
+actor, home alone 3, andy john g kalkounos, police officer 1
+actor, home alone 3, zachary lee, johnny allen
+actress, home alone 3, kelly ann marquart, girl on sidewalk
+
+movie, the horse whisperer, 1998
+director, the horse whisperer, robert redford
+actor, the horse whisperer, robert redford, tom booker
+actress, the horse whisperer, kristin scott thomas, annie maclean
+actor, the horse whisperer, sam neill, robert maclean
+actress, the horse whisperer, dianne wiest, diane booker
+actress, the horse whisperer, scarlett johansson, grace maclean
+actor, the horse whisperer, chris cooper, frank booker
+actress, the horse whisperer, cherry jones, liz hammond
+actor, the horse whisperer, ty hillman, joe booker
+actress, the horse whisperer, kate bosworth, judith
+actor, the horse whisperer, austin schwarz, twin 1
+actor, the horse whisperer, dustin schwarz, twin 2
+actress, the horse whisperer, jeanette nolan, ellen booker
+actor, the horse whisperer, steve frye, hank
+actor, the horse whisperer, don edwards, smokey
+actress, the horse whisperer, jessalyn gilsig, lucy annie s assistant
+actor, the horse whisperer, william buddy byrd, lester petersen
+actor, the horse whisperer, john hogarty, local tracker
+actor, the horse whisperer, michel lalonde, park ranger
+actor, the horse whisperer, c j byrnes, doctor
+actress, the horse whisperer, kathy baldwin keenan, nurse 1
+actress, the horse whisperer, allison moorer, barn dance vocalist
+actor, the horse whisperer, george a sack jr, truck driver
+actress, the horse whisperer, kellee sweeney, nurse 2
+actor, the horse whisperer, stephen pearlman, david gottschalk
+actress, the horse whisperer, joelle carter, office worker 1
+actress, the horse whisperer, sunny chae, office worker 2
+actress, the horse whisperer, anne joyce, office worker 3
+actress, the horse whisperer, tara sobeck, schoolgirl 1
+actress, the horse whisperer, kristy ann servidio, schoolgirl 2
+actress, the horse whisperer, marie engle, neighbor
+actor, the horse whisperer, curt pate, handsome cowboy
+actor, the horse whisperer, steven brian conard, ranch hand
+actress, the horse whisperer, tammy pate, roper
+actress, the horse whisperer, gloria lynne henry, member of magazine staff
+actor, the horse whisperer, lance r jones, ranch hand
+actor, the horse whisperer, donnie saylor, rugged cowboy
+actor, the horse whisperer, george strait, himself
+
+movie, in good company, 2004
+director, in good company, paul weitz
+actor, in good company, dennis quaid, dan foreman
+actor, in good company, topher grace, carter duryea
+actress, in good company, scarlett johansson, alex foreman
+actress, in good company, marg helgenberger, ann foreman
+actor, in good company, david paymer, morty
+actor, in good company, clark gregg, mark steckle
+actor, in good company, philip baker hall, eugene kalb
+actress, in good company, selma blair, kimberly
+actor, in good company, frankie faison, corwin
+actor, in good company, ty burrell, enrique colon
+actor, in good company, kevin chapman, lou
+actress, in good company, amy aquino, alicia
+actress, in good company, zena grey, jana foreman
+actress, in good company, colleen camp, receptionist
+actress, in good company, lauren tom, obstetrician
+actor, in good company, ron bottitta, porsche dealer
+actor, in good company, jon collin, waiter
+actor, in good company, shishir kurup, maitre d
+actor, in good company, tim edward rhoze, theo
+actor, in good company, enrique castillo, hector
+actor, in good company, john cho, petey
+actor, in good company, chris ausnit, young executive
+actress, in good company, francesca roberts, loan officer
+actor, in good company, gregory north, lawyer
+actor, in good company, gregory hinton, moving man
+actor, in good company, todd lyon, moving man
+actor, in good company, thomas j dooley, moving man
+actor, in good company, robin t kirksey, basketball ringer
+actress, in good company, katherine ellis, maya  roommate
+actor, in good company, nick schutt, carter s assistant
+actor, in good company, john kepley, salesman
+actor, in good company, mobin khan, salesman
+actress, in good company, jeanne kort, saleswoman
+actor, in good company, dean a parker, mike
+actor, in good company, richard hotson, fired employee
+actress, in good company, shar washington, fired employee
+actress, in good company, rebecca hedrick, teddy k s assistant
+actor, in good company, miguel arteta, globecom technician
+actor, in good company, sam tippe, kid at party
+actress, in good company, roma torre, anchorwoman
+actor, in good company, andre cablayan, legally dedd
+actor, in good company, dante powell, legally dedd
+actress, in good company, michalina almindo, hector s date
+actor, in good company, bennett andrews, greensman
+actress, in good company, claudia barroso, bar patron
+actress, in good company, jaclynn tiffany brown, basketball player
+actor, in good company, malcolm mcdowell, teddy k  globecom ceo
+actor, in good company, scott sahadi, moving man
+actress, in good company, loretta shenosky, kalb s assistant
+actor, in good company, trevor stynes, man on street
+
+movie, just cause, 1995
+director, just cause, arne glimcher
+actor, just cause, sean connery, paul armstrong
+actor, just cause, laurence fishburne, sheriff tanny brown
+actress, just cause, kate capshaw, laurie armstrong
+actor, just cause, blair underwood, bobby earl
+actor, just cause, ed harris, blair sullivan
+actor, just cause, christopher murray, detective t j wilcox
+actress, just cause, ruby dee, evangeline
+actress, just cause, scarlett johansson, kate armstrong
+actor, just cause, daniel j travanti, warden
+actor, just cause, ned beatty, mcnair
+actress, just cause, liz torres, delores rodriguez
+actress, just cause, lynne thigpen, ida conklin
+actress, just cause, taral hicks, lena brown
+actor, just cause, victor slezak, sgt rogers
+actor, just cause, kevin mccarthy, phil prentiss
+actress, just cause, hope lange, libby prentiss
+actor, just cause, chris sarandon, lyle morgan
+actor, just cause, george plimpton, elder phillips
+actress, just cause, brooke alderson, dr doliveau
+actress, just cause, colleen fitzpatrick, prosecutor
+actor, just cause, richard liberty, chaplin
+actor, just cause, joel s ehrenkranz, judge
+actress, just cause, barbara jean kane, joanie shriver
+actor, just cause, maurice jamaal brown, reese brown
+actor, just cause, patrick maycock, kid washing car 1
+actor, just cause, jordan f vaughn, kid washing car 2
+actor, just cause, francisco paz, concierge
+actress, just cause, marie hyman, clerk
+actor, just cause, s bruce wilson, party guest
+actor, just cause, erik stephan, student
+actress, just cause, melanie hughes, receptionist
+actress, just cause, megan meinardus, slumber party girl
+actress, just cause, melissa hood julien, slumber party girl
+actress, just cause, jenna del buono, slumber party girl
+actress, just cause, ashley popelka, slumber party girl
+actress, just cause, marisa perry, slumber party girl
+actress, just cause, ashley council, slumber party girl
+actress, just cause, augusta lundsgaard, slumber party girl
+actress, just cause, connie lee brown, prison guard
+actor, just cause, clarence lark iii, prison guard
+actor, just cause, monte st james, prisoner
+actor, just cause, gary landon mills, prisoner
+actor, just cause, shareef malnik, prisoner
+actor, just cause, tony bolano, prisoner
+actor, just cause, angelo maldonado, prisoner
+actor, just cause, fausto rodriguez, prisoner
+actress, just cause, karen leeds, reporter
+actor, just cause, dan romero, reporter
+actor, just cause, donn lamkin, reporter
+actress, just cause, stacie a zinn, reporter
+actress, just cause, kylie delre, woman in courtroom
+actress, just cause, deborah smith ford, medical examiner
+actor, just cause, patrick fullerton, reporter
+actor, just cause, jody millard, prison guard
+actor, just cause, michael sassano, courtroom observer
+actor, just cause, rene teboe, man in bus terminal
