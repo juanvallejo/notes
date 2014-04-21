@@ -1,4 +1,4 @@
-# Juan Vallejo 100%
+# Juan Vallejo 50% Aidan Sharpley 50%
 import re
 message = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elorem nibh ut lacus dapibus rutrum? Cras augue mi, loremus ut aliquet vitae, faucibus vitae lacus. Loremi convallis commodo mi, vitae scelerisque tellus iaculis non. Morbi in convallis felis, vitae lorem risus! Nunc id dui eu risus mattis consectetur id ac diam. Curabitur diam sem, elorem suscipit turpis quis, elementum dignissim est. Lorem"
 content = ['Lorem']

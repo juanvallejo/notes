@@ -1,0 +1,26 @@
+
+public class Person {
+    private String fname;
+    private String lname;
+    private int age;
+    private String state;
+    
+    public Person(String fname,String lname,int age,String state) {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.state = state;
+    }
+    
+    public String allFields() {
+        return "";
+    }
+    
+    public int compareTo(Person person) {
+        return 0;
+    }
+    
+    public String sortKey() {
+        return "";
+    }
+}

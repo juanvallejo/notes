@@ -1,0 +1,6 @@
+
+public class TreeNode {
+    public TreeNode(Person value,TreeNode leftkid,TreeNode rightkid) {
+        
+    }
+}

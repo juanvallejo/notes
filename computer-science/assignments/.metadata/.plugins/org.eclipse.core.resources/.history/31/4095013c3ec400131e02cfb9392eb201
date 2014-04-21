@@ -1,0 +1,36 @@
+
+public class TreeNode {
+    private Person value;
+    private TreeNode leftkid;
+    private TreeNode rightkid;
+    
+    public TreeNode(Person value,TreeNode leftkid,TreeNode rightkid) {
+        this.value = value;
+        this.leftkid = leftkid;
+        this.rightkid = rightkid;
+    }
+    
+    public Person getVal() {
+        return value;
+    }
+    
+    public void setVal(Person value) {
+        this.value = value;
+    }
+    
+    public TreeNode getLkid() {
+        return leftkid;
+    }
+    
+    public void setLkid(TreeNode kid) {
+        leftkid = kid;
+    }
+    
+    public TreeNode getRkid() {
+        return rightkid;
+    }
+    
+    public void setRkid(TreeNode kid) {
+        rightkid = kid;
+    }
+}
