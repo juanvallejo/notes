@@ -27,7 +27,7 @@
 			"file": "admin.html",
 			"settings":
 			{
-				"buffer_size": 1282,
+				"buffer_size": 989,
 				"line_ending": "CR"
 			}
 		},
@@ -35,7 +35,56 @@
 			"file": "data.js",
 			"settings":
 			{
-				"buffer_size": 942,
+				"buffer_size": 6767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "admin.php",
+			"settings":
+			{
+				"buffer_size": 5234,
+				"line_ending": "Unix",
+				"name": "admin.php"
+			}
+		},
+		{
+			"file": "actors.php",
+			"settings":
+			{
+				"buffer_size": 2150,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "directors.php",
+			"settings":
+			{
+				"buffer_size": 2043,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "actor.php",
+			"settings":
+			{
+				"buffer_size": 3030,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "director.php",
+			"settings":
+			{
+				"buffer_size": 3006,
+				"line_ending": "CR"
+			}
+		},
+		{
+			"file": "/Users/juanvallejo/Downloads/uMovies/movies datafile part 1.txt",
+			"settings":
+			{
+				"buffer_size": 15988,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +92,7 @@
 			"file": "login.php",
 			"settings":
 			{
-				"buffer_size": 196,
+				"buffer_size": 659,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +100,7 @@
 			"file": "movies.php",
 			"settings":
 			{
-				"buffer_size": 2134,
+				"buffer_size": 2150,
 				"line_ending": "CR"
 			}
 		},
@@ -61,14 +110,6 @@
 			{
 				"buffer_size": 2366,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "movies datafile part 1.txt",
-			"settings":
-			{
-				"buffer_size": 15988,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -123,6 +164,8 @@
 	},
 	"file_history":
 	[
+		"/Users/juanvallejo/Downloads/uMovies/movies datafile part 1.txt",
+		"/Users/juanvallejo/Downloads/uMovies/movie.php",
 		"/Volumes/Tardis/Projects/git/notes/programming-theory/php/movies datafile part 3.txt",
 		"/Volumes/Tardis/Projects/git/notes/programming-theory/php/movies datafile part 1.txt",
 		"/Volumes/Tardis/Projects/git/juanjvallejo.com/files/stemday_web/data/styles.css",
@@ -248,9 +291,7 @@
 		"/Volumes/Tardis/Projects/git/MobileNavigator/Navigator/TornadoTestServer.py",
 		"/Volumes/Tardis/Projects/git/MobileNavigator/Navigator/index.html.orig",
 		"/Volumes/Tardis/Projects/git/MobileNavigator/README.md",
-		"/Volumes/Tardis/Projects/git/MobileNavigator/README.md.orig",
-		"/Volumes/Tardis/Projects/git/HackU-Practice/db_server/index.html",
-		"/Volumes/Tardis/Projects/git/HackU-Practice/db_server/server.js"
+		"/Volumes/Tardis/Projects/git/MobileNavigator/README.md.orig"
 	],
 	"find":
 	{
@@ -268,6 +309,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\"directions\"][\"added",
+			"directions",
+			"admin.load.loginform(",
 			"back",
 			"background:rgb",
 			"background:transparent",
@@ -392,10 +436,7 @@
 			"style:",
 			"////--",
 			"greetings from",
-			".exists",
-			"restricted",
-			" </option>",
-			"Password: "
+			".exists"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -416,7 +457,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -432,8 +473,8 @@
 						"selection":
 						[
 							[
-								470,
-								475
+								481,
+								481
 							]
 						],
 						"settings":
@@ -447,7 +488,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
@@ -477,10 +518,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 144.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
@@ -489,15 +530,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1282,
+						"buffer_size": 989,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1058,
-								1058
+								829,
+								829
 							]
 						],
 						"settings":
@@ -511,7 +552,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
@@ -520,15 +561,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 942,
+						"buffer_size": 6767,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								572,
-								572
+								4952,
+								4964
 							]
 						],
 						"settings":
@@ -536,30 +577,224 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1409.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "login.php",
+					"file": "admin.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 196,
+						"buffer_size": 5234,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								164,
-								164
+								4645,
+								4645
+							]
+						],
+						"settings":
+						{
+							"auto_name": "admin.php",
+							"incomplete_sync": null,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1266.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "actors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1408,
+								1408
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 382.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "directors.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1329,
+								1329
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 350.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "actor.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3030,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2683,
+								2683
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "director.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3006,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1444,
+								1455
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 462.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/juanvallejo/Downloads/uMovies/movies datafile part 1.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15988,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4153,
+								4158
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "login.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								57,
+								100
 							]
 						],
 						"settings":
@@ -573,24 +808,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 11,
 					"file": "movies.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2134,
+						"buffer_size": 2150,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1992,
-								1992
+								870,
+								879
 							]
 						],
 						"settings":
@@ -603,14 +838,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 228.0,
+						"translation.y": 53.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 12,
 					"file": "uMovies.css",
 					"semi_transient": false,
 					"settings":
@@ -637,38 +872,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "movies datafile part 1.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15988,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5357,
-								5357
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4206.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
