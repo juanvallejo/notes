@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class CLI {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String next = "";
+           
+        while(!next.equals("bye")) {
+            next = in.nextLine();
+            String[] cmd = next.split(" ");
+           
+            if(next.equals("bye")) {
+                System.out.println("Exiting...");
+            } else if(next.equals("insert")) {
+                
+            } else {
+               System.out.println(">"+next);
+            }
+        }
+    }
+}

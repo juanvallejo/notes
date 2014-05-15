@@ -1,0 +1,12 @@
+import java.util.Scanner;
+public class CLI {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String next = in.nextLine();
+        
+        while(next != "bye") {
+            next = in.nextLine();
+            System.out.println("shit");
+        }
+    }
+}

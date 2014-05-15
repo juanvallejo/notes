@@ -1,0 +1,19 @@
+- Know what a heap is
+	- Inserting from a heap
+	- deleting from a heap
+- 2-3 Tree
+	- perfectly balanced tree
+	- all operations start at the leafs
+	- know what the operations are for a 2-3 tree
+	- know how to insert into a 2-3 tree
+- Linear probing
+	- double hashing is a probin mechanism
+	- rehashing is used when you have to expand the table
+		- you have to rehash because the hash function depends on the size of the table
+- external methods
+	- working with the harddrive
+- know what a B tree is
+	- basic insert
+	- basic delete
+- Topics available in Canvas
+- Exam Tuesday 11:00 am

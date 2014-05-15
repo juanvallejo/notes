@@ -1,0 +1,51 @@
+/**
+ * 
+ * @author juanvallejo
+ * @version 2013-04-21
+ * 
+ */
+public class Person implements Comparable<Person> {
+    private String fname;
+    private String lname;
+    private int age;
+    private String state;
+
+    /**
+     * 
+     * @param fname
+     * @param lname
+     * @param age
+     * @param state
+     */
+    public Person(String fname, String lname, int age, String state) {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.state = state;
+    }
+    
+    /**
+     * 
+     * @return
+     */
+    public String allFields() {
+        return lname + "," + fname + "," + age + "," + state;
+    }
+    
+    /**
+     * pre: bst object exists, post: 0, 1, -1 is returned when
+     * @return 0, -1, 1
+     */
+    @Override
+    public int compareTo(Person person) {
+        return sortKey().compareTo(person.sortKey());
+    }
+    
+    /**
+     * 
+     * @return
+     */
+    public String sortKey() {
+        return lname + fname;
+    }
+}

@@ -1,0 +1,219 @@
+/**
+ * 
+ * @author juanvallejo
+ * @version 2013-04-21
+ * 
+ */
+
+public class BstObj {
+    private TreeNode root;
+
+    /**
+     * pre: BstObj does not exist post: an instance of BstObj is created with a
+     * null root
+     */
+    public BstObj() {
+        root = null;
+    }
+
+    /**
+     * pre: bst object exists, post: bst object will have node containing passed
+     * value dereferenced
+     * 
+     * @param person
+     *            value to be deleted
+     */
+    public void delete(Person person) {
+        root = delete(person, root);
+    }
+
+    /**
+     * 
+     * @param person
+     * @param node
+     * @return treenode of new root
+     */
+    private TreeNode delete(Person person, TreeNode node) {
+        if (node != null) {
+            if (person.compareTo(node.getVal()) < 0) {
+                node.setLkid(delete(person, node.getLkid()));
+            }
+            else if (person.compareTo(node.getVal()) > 0) {
+                node.setRkid(delete(person, node.getRkid()));
+            }
+            else {
+                if (node.getLkid() == null) {
+                    return node.getRkid();
+                }
+                else if (node.getRkid() == null) {
+                    return node.getLkid();
+                }
+                else {
+                    node.setVal(getMin(node.getRkid()).getVal());
+                    node.setRkid(delete(node.getVal(), node.getRkid()));
+                }
+            }
+        }
+
+        return node;
+    }
+
+    /**
+     * pre: bst object exists, post: the minimum value of a tree node is
+     * returned
+     * 
+     * @param node
+     * @return treenode object
+     */
+    private TreeNode getMin(TreeNode node) {
+        if (node.getLkid() != null) {
+            return getMin(node.getLkid());
+        }
+        else {
+            return node;
+        }
+    }
+
+    /**
+     * pre: bst obj exists, post: root is returned
+     * 
+     * @return root
+     */
+    public TreeNode getRoot() {
+        return root;
+    }
+
+    /**
+     * pre: BstObj exists post: boolean value is returned based on the success
+     * or failure of finding a match for the Person value
+     * 
+     * @param person
+     *            is the object to be matched against other values of TreeNodes
+     * @return true if the value is found in the tree, false otherwise
+     */
+    public boolean find(Person person) {
+        return find(person, root);
+    }
+
+    /**
+     * 
+     * @param person
+     *            the value to find in the current treenode
+     * @param node
+     *            the node to iterate through to look for the Person value
+     * @return boolean value based on whether or not the param value passed is
+     *         in the passed treenode
+     */
+    private boolean find(Person person, TreeNode node) {
+        if (node == null) {
+            return false;
+        }
+        else {
+            if (node.getVal().allFields().equals(person.allFields())) {
+                return true;
+            }
+            else {
+                if (find(person, node.getLkid())) {
+                    return find(person, node.getLkid());
+                }
+                else if (find(person, node.getRkid())) {
+                    return find(person, node.getRkid());
+                }
+                else {
+                    return false;
+                }
+            }
+        }
+    }
+
+    /**
+     * pre: BstObj exists post: Person object is inserted into treenode object
+     * 
+     * @param value
+     *            which is the Person object to be inserted into the structure
+     */
+    public void insert(Person value) {
+        root = insert(value, root);
+    }
+
+    /**
+     * pre: bst object exists, post: value is inserted
+     * 
+     * @param value
+     *            val to insert into the tree
+     * @param node
+     *            current tree node to insert value in
+     */
+    private TreeNode insert(Person value, TreeNode node) {
+        if (node == null) {
+            return new TreeNode(value, null, null);
+        }
+        else if (value.sortKey().compareTo(node.getVal().sortKey()) == 0) {
+            throw new IllegalArgumentException();
+        }
+        else if (value.sortKey().compareTo(node.getVal().sortKey()) > 0) {
+            node.setRkid(insert(value, node.getRkid()));
+            return node;
+        }
+        else {
+            node.setLkid(insert(value, node.getLkid()));
+            return node;
+        }
+    }
+
+    /**
+     * pre: BstObj exists pos: BstObj exists and is checked for nodes
+     * 
+     * @return true if empty false otherwise
+     */
+    public boolean isEmpty() {
+        boolean r = true;
+        if (root != null) {
+            r = false;
+        }
+
+        return r;
+    }
+
+    /**
+     * pre: BstObj exists post: sort keys for nodes in tree inorder are sorted
+     * and returned
+     * 
+     * @return String of sort keys of the nodes of this BstObj traversed in
+     *         inorder or empty string if BstObj empty
+     */
+    public String nodesInOrder() {
+        return nodesInOrder(root);
+    }
+
+    /**
+     * pre: pre: BstObj exists and nodesInOrder() has been called post: node
+     * addresses for an individual TreeNode are returned as a string in order
+     * using this private method recursively
+     * 
+     * @param node
+     *            the treenode object to sort tree node passed to organize
+     * @return String of sort keys of an individual node of the TreeNode object
+     *         passed or empty string
+     */
+    private String nodesInOrder(TreeNode node) {
+        String r;
+        String l;
+
+        if (node.getLkid() != null) {
+            l = nodesInOrder(node.getLkid());
+        }
+        else {
+            l = "";
+        }
+
+        if (node.getRkid() != null) {
+            r = nodesInOrder(node.getRkid());
+        }
+        else {
+            r = "";
+        }
+
+        return l + node.getVal().sortKey() + "," + r;
+    }
+}

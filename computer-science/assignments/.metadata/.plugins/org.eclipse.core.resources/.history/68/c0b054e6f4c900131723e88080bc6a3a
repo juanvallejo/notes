@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class CLI {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String next = "";
+           
+        while(!next.equals("bye")) {
+            System.out.println(">"+next);
+            next = in.nextLine();
+            if(next.equals("bye")) {
+                System.out.println("Exiting...");
+            }
+        }
+    }
+}

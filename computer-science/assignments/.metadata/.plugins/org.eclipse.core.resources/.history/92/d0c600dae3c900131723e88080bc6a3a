@@ -1,0 +1,59 @@
+/**
+ * 
+ * @author juanvallejo
+ * @version 2013-04-21
+ * 
+ */
+public class Person implements Comparable<Person> {
+    private String fname;
+    private String lname;
+    private int age;
+    private String state;
+
+    /**
+     * pre: Person object does not exists, post: Person object is created with
+     * following params
+     * 
+     * @param fname
+     *            name
+     * @param lname
+     *            last name
+     * @param age
+     *            age
+     * @param state
+     *            state
+     */
+    public Person(String fname, String lname, int age, String state) {
+        this.fname = fname;
+        this.lname = lname;
+        this.age = age;
+        this.state = state;
+    }
+
+    /**
+     * pre: bst object exists, post: all fields returned
+     * 
+     * @return returns every field as a string concatenated by commas
+     */
+    public String allFields() {
+        return lname + "," + fname + "," + age + "," + state;
+    }
+
+    /**
+     * pre: bst object exists, post: 0, 1, -1 is returned when
+     * @param person value to be added
+     * @return 0, -1, 1
+     */
+    @Override
+    public int compareTo(Person person) {
+        return sortKey().compareTo(person.sortKey());
+    }
+
+    /**
+     * 
+     * @return string of concatenated fname and lastname
+     */
+    public String sortKey() {
+        return lname + fname;
+    }
+}

@@ -1,8 +1,24 @@
+/**
+ * 
+ * @author juanvallejo
+ * @version 2013-04-21
+ * 
+ */
 public class TreeNode {
     private Person value;
     private TreeNode leftkid;
     private TreeNode rightkid;
 
+    /**
+     * pre: TreeNode does not exist, post: TreeNode created
+     * 
+     * @param value
+     *            to be inserted
+     * @param leftkid
+     *            link to the left kid node
+     * @param rightkid
+     *            link to the right kid node
+     */
     public TreeNode(Person value, TreeNode leftkid, TreeNode rightkid) {
         this.value = value;
         this.leftkid = leftkid;
@@ -20,11 +36,13 @@ public class TreeNode {
     }
 
     /**
+     * pre: bst object exists, post: value is changed to value
      * 
-     * @param value
+     * @param val
+     *            is returned
      */
-    public void setVal(Person value) {
-        this.value = value;
+    public void setVal(Person val) {
+        this.value = val;
     }
 
     /**

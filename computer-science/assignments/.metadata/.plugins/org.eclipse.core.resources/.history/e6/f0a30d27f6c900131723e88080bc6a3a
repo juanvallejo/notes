@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class CLI {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String next = "";
+           
+        while(!next.equals("bye")) {
+            next = in.nextLine();
+            String[] cmd = next.split(" ");
+           
+            if(next.equals("bye")) {
+                System.out.println("Exiting...");
+            } else if(cmd[0].equals("insert")) {
+                Person person = new Person(cmd[1],cmd[2],cmd[3],cmd[4]);
+                System.out.println("You are inserting a new record");
+            } else {
+               System.out.println(">"+next);
+            }
+        }
+    }
+}
