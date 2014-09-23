@@ -1,0 +1,314 @@
+/**
+ * 
+ * @author Juan Vallejo
+ * @version 2014-03-14
+ * 
+ */
+public class ListPos {
+
+    private int position;
+    private int size;
+    /**
+     * first element of a list
+     */
+    Node head;
+
+    /**
+     * position of current index
+     */
+    Node current;
+
+    /**
+     * position of previous Node
+     */
+    Node previous;
+
+    /**
+     * pre: list does not exist pos: empty list is created with a size of 0 and
+     * pos of -1
+     */
+    public ListPos() {
+        head = null;
+        size = 0;
+        position = -1;
+    }
+
+    /**
+     * pre: list exists with n elements pos: the current element is "unlinked"
+     * from the list
+     */
+    public void delete() {
+        if (size == 1) {
+            current = null;
+            head = null;
+            previous = null;
+            position = -1;
+            size = 0;
+
+        }
+        else {
+            if (position == 1) {
+                head = current.next;
+                current = current.next;
+            }
+            else if (position == size) {
+                current = previous;
+                current.next = null;
+            }
+            else {
+                if (previous != null) {
+                    previous.next = current.next;
+                }
+                if (current.next != null) {
+                    current = current.next;
+                }
+            }
+
+            position--;
+            size--;
+        }
+    }
+
+    /**
+     * pre: a list exists with n elements pos: it is determined whether both
+     * lists have the same elements pos:
+     * 
+     * @return true or false depending on whether list passed matches current
+     * @param object
+     *            the ListPose object to compare the current list to.
+     */
+    @Override
+    public boolean equals(java.lang.Object object) {
+        boolean response = true;
+
+        ListPos argm = (ListPos) object;
+
+        Node temp = head;
+        Node argmT = argm.head;
+
+        for (int i = 0; i < size; i++) {
+            if (temp.value != argmT.value) {
+                response = false;
+            }
+            if (temp != null) {
+                temp = temp.next;
+                argmT = argmT.next;
+            }
+        }
+
+        return response;
+    }
+
+    /**
+     * pre: a list exists pos: the value of the current element is given pos:
+     * 
+     * @return current: the current element
+     */
+    public java.lang.Object get() {
+        Object response = null;
+        if (current != null) {
+            if (this.current.value != null) {
+                response = this.current.value;
+            }
+            else {
+                throw new IllegalArgumentException();
+            }
+        }
+        else {
+            if (size > 0) {
+                response = head;
+            }
+            else {
+                throw new IllegalArgumentException();
+            }
+        }
+
+        return response;
+    }
+
+    /**
+     * pre: list exists pos: the current node is set to the head of the list
+     */
+    public void goFirst() {
+        current = head;
+        previous = null;
+        position = 1;
+    }
+
+    /**
+     * pre: list exists pos: the current node is set to the last node on the
+     * list
+     */
+    public void goLast() {
+        if (current != null && current.next != null) {
+            while (current.next != null) {
+                current = current.next;
+            }
+
+            position = size;
+        }
+    }
+
+    /**
+     * pre: list exists pos: current is set to the next node on the list
+     */
+    public void goNext() {
+        if (current != null && current.next != null) {
+            previous = current;
+            current = current.next;
+            position++;
+        }
+    }
+
+    /**
+     * pre: list exists pos: current is set to the previous node
+     */
+    public void goPrev() {
+        if (position == 1) {
+            goTop();
+        }
+        else {
+            if (previous != null) {
+                current = previous;
+                position--;
+
+                Node temp = head;
+                for (int i = 0; i < position; i++) {
+                    previous = temp.next;
+                }
+            }
+        }
+    }
+
+    /**
+     * pre: list exists with n items and dummy head pos: current is set to dummy
+     * head, becoming pointer to head
+     */
+    public void goTop() {
+        if (current != null) {
+            current.next = head;
+        }
+        else {
+            current = new Node(null, null);
+            current.next = head;
+        }
+
+        current = null;
+        previous = null;
+        position = 0;
+    }
+
+    /**
+     * pre: list exists pos: passed object is added and linked with existing
+     * nodes on the list
+     * 
+     * @param value
+     *            the value of the data to assign to a Node
+     */
+    public void insert(java.lang.Object value) {
+        Node item = new Node(value);
+
+        if (position == 0) {
+            current = item;
+            current.next = head;
+
+            head = current;
+        }
+        else {
+            if (size > 0) {
+                if (current.next != null) {
+                    item.next = current.next;
+                }
+
+                current.next = item;
+            }
+
+            previous = current;
+            current = item;
+
+            if (position < 0) {
+                position = 0;
+            }
+            if (size == 0) {
+                head = item;
+            }
+        }
+
+        size++;
+        position++;
+    }
+
+    /**
+     * pre: list exists pos: list is checked to see if it contains a next and
+     * previous node
+     * 
+     * @return r: if the list contains elements, false is returned, else true is
+     *         returned
+     */
+    public boolean isEmpty() {
+        boolean r = false;
+        if (this.head == null) {
+            r = true;
+        }
+
+        return r;
+    }
+
+    /**
+     * pre: list exists with n elements pos: the "index" of the current element
+     * is given
+     * 
+     * @return position: the position of the current element
+     */
+    public int position() {
+        return this.position;
+    }
+
+    /**
+     * pre: list exists with n elements pos: the amount of items on the list is
+     * given
+     * 
+     * @return size: the amount of items is returned
+     */
+    public int size() {
+        return this.size;
+    }
+}
+
+/**
+ * @author juanvallejo
+ * @version 2013-03-14
+ */
+class Node {
+    /**
+     * the data of the Node
+     */
+    Object value;
+    /**
+     * the "link" reference to the nex Node on the chain
+     */
+    Node next;
+
+    /**
+     * 
+     * @param item
+     *            the data a new node will hold
+     */
+    public Node(Object item) {
+        this.value = item;
+        this.next = null;
+    }
+
+    /**
+     * instantiates a new Node object
+     * 
+     * @param item
+     *            data assigned to new Node object
+     * @param next
+     *            reference to the next "linked" Node
+     */
+    public Node(Object item, Node next) {
+        this.value = item;
+        this.next = next;
+    }
+}

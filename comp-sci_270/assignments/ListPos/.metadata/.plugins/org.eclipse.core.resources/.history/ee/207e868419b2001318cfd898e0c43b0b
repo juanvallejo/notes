@@ -1,0 +1,308 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+/**
+ * @author Juan Vallejo
+ * @version 2013-03-14
+ */
+public class ListPosTest {
+
+    /**
+     * tests to see if an empty list is created on class instantiation
+     */
+    @Test
+    public void doesDefaultConstructorCreateEmptyList() {
+        ListPos list = new ListPos();
+        int expected = 0;
+        int actual = list.size();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * checks to see if size increases with item insertion
+     */
+    @Test
+    public void doesSizeReturnAmountOfItemsInList() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+        list.insert(new Object());
+
+        int expected = 3;
+        int actual = list.size();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * makes sure list is empty upon creation
+     */
+    @Test
+    public void isListEmptyWhenNoNodesHaveBeenAdded() {
+        ListPos list = new ListPos();
+
+        boolean actual = list.isEmpty();
+
+        assertTrue(actual);
+    }
+
+    /**
+     * makes sure list is in an "empty" state when the last item is deleted
+     */
+    @Test
+    public void isListEmptyWhenAllNodesHaveBeenDeleted() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+
+        list.delete();
+        list.delete();
+
+        boolean actual = list.isEmpty();
+
+        assertTrue(actual);
+    }
+
+    /**
+     * Checks to see that the head of the list is not null when deleted
+     */
+    @Test
+    public void isHeadReassignedOnDeletion() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+        list.insert(new Object());
+
+        list.goFirst();
+        list.delete();
+
+        Node actual = list.head;
+
+        assertNotNull(actual);
+    }
+
+    /**
+     * Makes sure the next element of the previous node is set to null on last
+     * item deletion
+     */
+    @Test
+    public void isNextEqualToNullOnLastItemDeletion() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+        list.insert(new Object());
+
+        list.goLast();
+        list.delete();
+
+        Object expected = list.get();
+        list.goNext();
+
+        Object actual = list.get();
+
+        assertEquals(actual, expected);
+    }
+
+    /**
+     * checks to see that position returns -1 on empty list
+     */
+    @Test
+    public void doesPositionEqualNegativeOneWhenListIsEmpty() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.delete();
+
+        int expected = -1;
+        int actual = list.position();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * checks to see that position returns -1 on empty list
+     */
+    @Test
+    public void doesSizeEqual0WhenListIsEmpty() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.delete();
+
+        int expected = 0;
+        int actual = list.size();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * is list position updated on Node insert
+     */
+    @Test
+    public void doesPositionUpdateOnItemInsert() {
+        int position = 0;
+
+        ListPos list = new ListPos();
+        list.insert(new Object());
+
+        int expected = position + 1;
+        int actual = list.position();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * is size updated on item insert
+     */
+    @Test
+    public void doesInsertingAnItemUpdateListSize() {
+        int size = 0;
+
+        ListPos list = new ListPos();
+        list.insert(new Object());
+
+        int expected = size + 1;
+        int actual = list.size();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * does delete empty list when there is one item
+     */
+    @Test
+    public void doesDeleteEmptyListWithOneItem() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.delete();
+
+        int expected = -1;
+        int actual = list.position();
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * does inserting more than one item correctly link Nodes
+     */
+    @Test
+    public void doesInsertLinkNodes() {
+        try {
+            ListPos list = new ListPos();
+            ListPos other = new ListPos();
+
+            Object one = new Object();
+            Object two = new Object();
+            Object thr = new Object();
+
+            list.insert(one);
+            list.insert(two);
+            list.insert(thr);
+
+            other.insert(one);
+            other.insert(two);
+            other.insert(thr);
+
+            Object o = list.head.next.value;
+            Object a = other.head.next.value;
+
+            if (o != a) {
+                fail();
+            }
+        }
+        catch (NullPointerException e) {
+            fail();
+        }
+    }
+
+    /**
+     * Does the equal method compare Nodes correctly
+     */
+    @Test
+    public void doesEqualsCompareNodeValues() {
+        ListPos list = new ListPos();
+        ListPos other = new ListPos();
+
+        Object one = new Object();
+        Object two = new Object();
+        Object thr = new Object();
+
+        list.insert(one);
+        list.insert(two);
+        list.insert(thr);
+
+        other.insert(one);
+        other.insert(two);
+        other.insert(thr);
+
+        boolean actual = list.equals(other);
+
+        assertTrue(actual);
+    }
+
+    /**
+     * does goTop() unset non-default values
+     */
+    @Test
+    public void doesGoTopUnsetNodeValues() {
+        ListPos list = new ListPos();
+        list.goTop();
+
+        Node actual = list.current;
+
+        assertNull(actual);
+
+    }
+
+    /**
+     * does delete method set the next field to null on the last Node
+     */
+    @Test
+    public void doesDeleteSetNextToNullWhenPositionEqualsSize() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+        list.insert(new Object());
+
+        list.goLast();
+        list.delete();
+
+        Node actual = list.current.next;
+
+        assertNull(actual);
+    }
+
+    /**
+     * does delete method set the next field to null on the last Node
+     */
+    @Test
+    public void doesDeleteSetCurrentEqualToPrevious() {
+        ListPos list = new ListPos();
+        list.insert(new Object());
+        list.insert(new Object());
+        list.insert(new Object());
+
+        Node expected = list.previous;
+
+        list.delete();
+
+        Node actual = list.current;
+
+        assertEquals(expected, actual);
+    }
+
+    /**
+     * does insert in one element list before first make the new element the first.
+     */
+     @Test
+     public void doesInsertInOneElementListBeforeFirstMakeNewFirst() {
+         ListPos list = new ListPos();
+         list.insert(new Object());
+         
+         Node expected = list.current;
+         
+         list.goTop();
+         list.insert(new Object());
+    
+         Node actual = list.previous;
+     }
+}
