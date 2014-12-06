@@ -1,0 +1,30 @@
+
+public class ListExample {
+	public static Node<Character> getUppercaseList(Node<Character> head) {
+		// check to see that head exists
+	    if (head == null) {
+	        return null;
+	    }
+	    
+	    // declare root of stack
+	    Node<Character> first = head;
+	    
+	    
+	    
+	    // check to see if the rest of values are upper case;
+	    while(head.next != null) {
+	    	// check to see if value of current node is upper case
+	    	if(!Character.isUpperCase(head.next.value)) {
+	    		// if value of current node not upper case, skip
+	    		head = head.next.next;
+	    	} else {
+	    		// increment pointer to current node
+	    		head = head.next;
+	    	}
+	    }
+	    
+	    // return root of node tree
+	    return first;
+	}
+}
+

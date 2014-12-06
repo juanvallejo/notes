@@ -1,0 +1,45 @@
+//import java.util.Stack;
+
+
+public class StackExample {
+	public static Stack<Integer> getEvenNumbers(Stack<Integer> stack) {
+	    Stack<Integer> a = stack;
+	    Stack<Integer> c = new Stack<Integer>();
+	    System.out.println(length(stack));
+	    if(length(stack)==1)
+	    {
+	        return stack;
+	    }
+	    while (!(a.isEmpty())) {
+	        int num = a.pop();
+	        if (num % 2 == 0) {
+	            c.push(num);
+	        } else {
+
+	        }
+	    }
+	    System.out.println(c.isEmpty());
+	    return c;
+	}
+
+	public static int length(Stack<Integer> a)
+	{
+	    Stack<Integer> store = new Stack<Integer>();
+	    int length = 0;
+	    while (!(a.isEmpty()))
+	    {
+	        store.push(a.pop());
+	        length++;
+	    }
+	    while (!(store.isEmpty()))
+	    {
+	        a.push(store.pop());
+	    }
+	    return length;
+	}
+
+	
+	
+	
+	}
+
