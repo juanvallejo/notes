@@ -1,0 +1,9 @@
+date,name,samplesize,score,speed,cores,price,color
+July 2010,Intel Core i7-970,140,8550,3.20,6,885,red
+Nov 2008,Intel Core i7-960,518,5940,3.20,4,562,red
+July 2010,Intel Core i5-3330,772,5894,3.00,4,182,red
+January 2013,Intel Core i3-3210,82,3906,3.20,2,117,red
+2013,AMD FX-937,275,9590,4.40,8,204,blue
+2011,AMD FX-8350,4921,9014,4.00,8,173,blue
+2011,AMD FX-8150,1121,7696,3.60,8,183,blue
+2012,AMD FX-4100,1077,4041,3.60,4,101,blue
