@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="portrait" >
+
+    <ImageView
+        android:background="@drawable/gutters"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#aa000000"
+        android:gravity="bottom"
+        android:id="@+id/linearLayout">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:onClick="cameraButtonClickHandler"
+            android:nestedScrollingEnabled="false" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:src="@android:drawable/ic_menu_edit"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:onClick="doSketch"
+            android:nestedScrollingEnabled="false" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:src="@android:drawable/ic_menu_view"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:onClick="doColorize" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:src="@android:drawable/ic_menu_share"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:onClick="doShare" />
+
+    </LinearLayout>
+
+</RelativeLayout>

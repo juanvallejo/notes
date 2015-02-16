@@ -1,0 +1,6 @@
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/classes/debug
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-7475a46b523a61f5a110b5c2188514e42b3879ff.jar
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/pre-dexed/debug/classes-8dad1b474a84c47dfea113442f1be20eb25798fa.jar
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-4311729429be1836c6594829a270e01dcd27436d.jar
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/pre-dexed/debug/classes-979a4d2815be210930c83f4560f672dffae68e68.jar
+/Users/juanvallejo/Documents/notes/cs475/Project2_Solution_color_SKELETON/project2_Solution_color/build/intermediates/pre-dexed/debug/classes-20dc21a07035da707f93ef2f887818eb93be9e1a.jar
