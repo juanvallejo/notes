@@ -55,7 +55,7 @@ public class Movie {
      * pre: movie object exists, post: movie year is inserted
      * 
      */
-	public void setYear(Strng y) {
+	public void setYear(String y) {
 		year = y;
 	}
 
