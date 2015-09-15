@@ -1,0 +1,51 @@
+import java.awt.Component;
+import java.awt.Graphics;
+
+import javax.swing.*;
+
+public class CompositeIcon implements Icon {
+
+	private Icon[] icons;
+	private int iconCount = 0;
+	
+	public CompositeIcon() {
+		icons = new Icon[20];
+	}
+	
+	public void paintIcon(Component component, Graphics graphics, int x, int y) {
+		System.out.println("PinatIcbv meth called");		
+		
+	}
+
+	public int getIconWidth() {
+
+		for(Icon icon : icons) {
+			return icon.getIconWidth();
+		}
+		
+		return 0;
+		
+	}
+
+	public int getIconHeight() {
+		
+		for(Icon icon : icons) {
+			return icon.getIconHeight();
+		}
+		
+		return 0;
+		
+	}
+
+	/**
+	 * adds the icon to the collection of icons and supply methods to draw each icon at location x,y
+	 * @param icon to draw on the frame
+	 * @param x coordinate of icon
+	 * @param y coordinate of icon
+	 */
+	public void addIcon(Icon icon, int x, int y) {
+		icons[iconCount++] = icon;
+	}
+	
+	
+}

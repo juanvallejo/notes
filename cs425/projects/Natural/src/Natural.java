@@ -1,0 +1,99 @@
+/**
+ * Class for storing, sorting, and managing natural numbers.
+ * 
+ * @author juanvallejo
+ * @date 2/18/15
+ */
+public class Natural implements Comparable<Natural> {
+
+	// holds the value of our natural number
+	private int naturalIntegerValue;
+	
+	/**
+	 * Constructor for our class. Assigns a natural integer value to our object.
+	 * @param number integer containing the value our Natural number holds
+	 */
+	public Natural(int number) {
+		
+		if(number < 0) {
+			throw new IllegalArgumentException();
+		}
+		
+		naturalIntegerValue = number;
+		
+	}
+	
+	/**
+	 * returns the value of our Natural number as an integer
+	 * @return naturalIntegerValue integer holding value our Natural number class
+	 */
+	public int intValue() {
+		return naturalIntegerValue;
+	}
+	
+	/**
+	 * returns a natural number comparator to sort integers by increasing order
+	 * @return java.util.Comparator<Natural> natural number comparator, allowing two Natural objects to be compared by integer value
+	 */
+	public static java.util.Comparator<Natural> comparatorByNumber() {
+		
+		return new java.util.Comparator<Natural>() {
+			
+			public int compare(Natural firstNumber, Natural secondNumber) {
+				return firstNumber.compareTo(secondNumber);
+			}
+			
+		};
+		
+	}
+	
+	/**
+	 * returns a natural number comparator to sort integers as alphabetical strings
+	 * @return java.util.Comparator<Natural> natural number comparator, allowing two Natural objects to be compared by integer value
+	 */
+	public static java.util.Comparator<Natural> comparatorByAlpha() {
+				
+		return new java.util.Comparator<Natural>() {
+			
+			public int compare(Natural firstNumber, Natural secondNumber) {
+				return firstNumber.toString().compareTo(secondNumber.toString());
+			}
+			
+		};
+	}
+	
+	/**
+	 * returns 1, 0, or -1 depending on whether the integer value of the natural number
+	 * passed is less than, equal to, or greater than our number's integer value, respectively
+	 * 
+	 * @return int indicating compared result
+	 */
+	public int compareTo(Natural number) {
+		return Integer.compare(naturalIntegerValue, number.naturalIntegerValue);
+	}
+	
+	/**
+	 * Return our natural integer value as a string
+	 */
+	@Override
+	public String toString() {
+		return "" + naturalIntegerValue;
+	}
+	
+	/**
+	 * Overrides an object's equals method. Used for seeing if two Natural number objects are equal to each other.
+	 * @param number
+	 * @return boolean indicating whether or not the integer value of our natural number matches the one of the Natural number passed
+	 */
+	@Override
+	public boolean equals(Object number) {
+		
+		if(this.naturalIntegerValue == ((Natural) number).intValue()) {
+			return true;
+		}
+		
+		return false;
+		
+	}
+	
+}

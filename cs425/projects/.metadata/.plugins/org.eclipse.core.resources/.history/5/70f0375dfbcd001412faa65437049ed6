@@ -1,0 +1,31 @@
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+import javax.swing.JFrame;
+
+public class CompositeIconTest {
+
+	@Test
+	public void doesCompositeIconUseCompositeLayoutSuccessfully() {
+		
+		JFrame frame = new JFrame();
+		Container panel = frame.getContentPane();
+		panel.setLayout(new BorderLayout());
+		CompositeIcon icon = new CompositeIcon();
+		try {
+		icon.addIcon(new ImageIcon(new URL("http://th02.deviantart.net/fs71/150/f/2013/103/2/7/java_dock_icon_by_excurse-d61mi0t.png")), 10, 10);
+		icon.addIcon(new ImageIcon(new URL("http://fc03.deviantart.net/fs20/f/2007/274/9/8/3D_Java_icon_by_BrightKnight.png")), 200, 200);
+		icon.addIcon(new ImageIcon(new URL("http://www.bravegnu.org/blog/icons/java.png")), 5, 370);
+		} catch (MalformedURLException e) {
+		System.err.println("Apparently, somebody cannot type a URL");
+		}
+		panel.add(new JLabel(icon));
+		frame.pack();
+		frame.setVisible(true);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
+		fail();
+		
+	}
+	
+}
