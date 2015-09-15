@@ -1,6 +1,7 @@
 bin/
 build/
 /local.properties
+META-INF/
 build.*
 *.class
 .DS_Store
