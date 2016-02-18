@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Block v. Stream Ciphers}
+\author{Juan Vallejo}
+\date{January 26 2016}
+
+\begin{document}
+
+\maketitle
+
+\section{Ideal Block Cypher}
+
+Random permutation of 64-bit blocks is the key $2^64!$ different keys.
+
+\begin{displaymath}
+    \begin{array}{l|l}
+        \mbox{Plaintext} & \mbox{Ciphertext}: K = 0x000000000 \\ \hline
+        0x0000000000 & 0xD8D8DBBCE73AED4F
+    \end{array}
+\end{displaymath}
+
+The above example works as long as there are no collisions between \textit{plaintext} keys and 
+\textit{ciphertext} values.
+
+\section{Claude Shannon and Substitution Permutation Ciphers}
+
+\begin{itemize}
+    \item Claude Shannon introduced idea of substitution=permutations $(S-P)$ networks in 1949 paper.
+\end{itemize}
+
+\section{Feistel Cipher Structure}
+
+
+
+\end{document}
