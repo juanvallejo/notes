@@ -1,0 +1,435 @@
+\documentclass{beamer}
+\usepackage{verbatim, graphicx}
+\usetheme{Copenhagen}
+
+
+\begin{document}
+\begin{frame}
+  \title{Math 301: Function Theory}
+  \author{Juan Vallejo}
+  \maketitle
+\end{frame}
+
+% slide 1
+\begin{frame}[fragile]\frametitle{What Are Functions?}
+\begin{center}\textbf{Definition} \end{center}
+
+\begin{itemize}
+  \item In mathematics, a function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. %No comments to display here
+  
+  \vfill
+  \begin{center}\includegraphics[scale=0.5]{Function_IO_sl2.png} \end{center}
+  
+  \vfill
+  \item General format of functions:
+  
+  \vfill
+  \begin{equation*}
+    f(x) = x^2
+  \end{equation*}
+  \vfill
+
+\end{itemize}
+
+\end{frame}
+
+% slide 2
+\begin{frame}[fragile]\frametitle{Why Functions?}
+%\begin{center}\textbf{Definition} \end{center}
+
+\begin{itemize}
+  \item They are an integral part of mathematics and computational world
+    \begin{itemize}
+      \item Theory is foundation for functional programming paradigm seen in languages such as Haskell and Python
+    \end{itemize}
+  \item Allow for use of rules more than once in an expression
+  \item Allow for different parameter values
+  \item Useful for recognizing similarities in a set of observations
+
+\end{itemize}
+
+\end{frame}
+
+% slide 3
+\begin{frame}[fragile]\frametitle{Components $-$ Domain and Range}
+%\begin{center}\textbf{Definition} \end{center}
+
+Functions can be seen as relations that uniquely associate members of one set with members of another set. \textit{A function from $A \to B$} is an object $f$ such that every $\alpha \in A$ is uniquely associated with an object $f(\alpha) \in B$. A function is therefore a many-to-one relation.
+
+\vfill
+\begin{itemize}
+  \item The set $A$ of values at which a function is defined is called its domain
+  \item The set $f(A) \subset B$ of values that the function can produce is called the \textit{range}. It is denoted as follows:
+  \begin{equation*}
+    D(f) = \lbrace x \in \mathbb{R}; f(x) \rbrace
+  \end{equation*}
+  \item In other words, range of a function is the set of all values obtained by substituting arguments from its domain
+
+\end{itemize}
+
+\end{frame}
+
+% slide 4
+\begin{frame}[fragile]\frametitle{Components $-$ Real Functions}
+%\begin{center}\textbf{Definition} \end{center}
+
+A function is defined as ``Real" when $f: A \subset \mathbb{R} \in \mathbb{R}$
+\vfill
+\begin{itemize}
+  \item Domain elements in real functions are mapped to unique range elements
+  \begin{itemize}
+    \item Can be expressed graphically by performing the \textit{vertical line test}
+  \end{itemize}
+  \item They are the most important type of \textit{mapping}.
+  \begin{itemize}
+    \item Can be thought of as any mapping from some subset of the set of real numbers to the set of real numbers
+  \end{itemize}
+  
+\end{itemize}
+
+\end{frame}
+
+% slide 5
+\begin{frame}[fragile]\frametitle{Components $-$ Real Functions}
+\begin{center}\textbf{Basic Notions of Real Functions} \end{center}
+
+\vfill
+\begin{itemize}
+  \item Can be thought of as a perscription which assigns values to arguments
+  \begin{itemize}
+    \item For example: $y = f(x)$ means that to the value $x$ of the argument, the function $f$ assigns the value $y$
+    \item Second notation: $f:x \to y$ implies that the function $f$ sends the value $x$ to $y$
+  \end{itemize}
+  \item Usual way of specifying assignments is that the function value $y$ can be obtained by substituting $x$ to a specific formula:
+  \begin{equation*}
+    f(x) = 2x + 3
+  \end{equation*}
+  
+\end{itemize}
+
+\end{frame}
+
+% slide 6
+\begin{frame}[fragile]\frametitle{Components $-$ Real Functions}
+\begin{center}\textbf{Substitution and Visualization} \end{center}
+
+\vfill
+\begin{center} $f(a) = f \vert_a  =  f \vert_{x=a}$ \end{center}
+
+\vfill
+\begin{itemize}
+  \item Used when function needs adjustment, but not yet ready for substitution. Example:
+  \begin{equation*}
+    \left.\frac{x^2 - 1}{x-1}\right\rvert_{x=3} = \left.\frac{(x-1)(x+1)}{x-1}\right\rvert_{x=3} = 4.
+  \end{equation*}
+  \item Graphs are common way of visuaizing functions in mathematics.
+  \item Used to mark in the two-dimensional plane $(x,y)$ all couples $x, f(x)$
+  
+\end{itemize}
+
+\end{frame}
+
+% slide 7
+\begin{frame}[fragile]\frametitle{Types of Functions}
+
+\vfill
+\begin{center}\textbf{Functions are primary objects of study in calculus, consisting of various types:} \end{center}
+
+\vfill
+\begin{itemize}
+\item linear
+\item polynomial
+\item trigonometric
+\item logarithmic
+\end{itemize}
+
+\end{frame}
+
+% slide 8
+\begin{frame}[fragile]\frametitle{Linear Functions}
+% \begin{center}\textbf{Substitution and Visualization} \end{center}
+
+\vfill
+Allow us to approximate more complicated functions in differential calculus. There are three standad forms of linear functions:
+
+\vfill
+\begin{align*}
+  f(x) &= mx + b &\,\text{(Slope-intercept form)} \\
+  y - y_o &= m(x - x_0) &\, \text{(The ``point-slope" form)} \\
+  Ax + By &= C &\, \text{(The ``general" form)}
+\end{align*}
+
+\end{frame}
+
+% slide 9
+\begin{frame}[fragile]\frametitle{Linear Functions}
+\begin{center}\textbf{Frequently used to solve for the following calculations:} \end{center}
+
+\vfill
+\begin{itemize}
+  \item \textbf{Intercepts}
+  \begin{itemize}
+    \item Finding the slope, x-intercept, and y-intercept of the line given its equation
+  \end{itemize}
+  \item \textbf{Intersections}
+  \begin{itemize}
+    \item Finding the intersection of two lines from their equations
+  \end{itemize}
+  \item \textbf{Equations}
+  \begin{itemize}
+       \item Finding the equation of the line through a series of points given one of the following three pairs of data:
+       \begin{itemize}
+        \item the slope of the line and the y-intercept
+        \item the slope of the line and a point $(x_0,y_0)$ on the line
+        \item the coordinates of two points on the line
+       \end{itemize}
+  \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+
+% slide n
+\begin{frame}[fragile]\frametitle{File Structure}
+
+File is separated into frames: % AKA slides
+
+\vfill
+
+Inside the document:
+
+\vfill
+\begin{verbatim}
+
+\begin{frame}\frametitle{Title}
+
+Contents 
+
+\end{frame} \end{verbatim}
+
+\vfill
+
+Compile to PDF! (DVI has \ldots issues)
+
+\vfill
+
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{Spacing}
+
+\begin{itemize}
+\item Text is automatically centered vertically.
+\item Starts flush left.
+\item No separation or indentation between paragraphs. %why do you have a paragraph?
+
+\end{itemize}
+
+He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
+His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
+
+He's an ex-parrot!
+
+%Quite crushed together
+
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{Spacing}
+
+\vfill
+
+Vertical spacing: give blank lines before and after the command % not always necessary but at first, it's a good idea.
+\begin{itemize}
+  \item Manual vertical spacing: \verb#\vspace{amount in units}#  %many units, pts. inches, centimeters
+  \item Automatic spacing: \verb#\vfill#
+\end{itemize}
+
+\vfill
+
+Horizontal spacing: 
+\begin{itemize}
+  \item Manual vertical spacing: \verb#\hspace{amount in units}# 
+  \item Automatic spacing: \verb#\hfill#
+\end{itemize}
+
+\vfill
+
+\end{frame}
+
+\begin{frame}\frametitle{Earlier example}
+
+\begin{itemize}
+\item Text is automatically centered vertically.
+\item Starts flush left.
+\item No separation or indentation between paragraphs. %why do you have a paragraph?
+\end{itemize}
+
+
+
+\end{frame}
+
+\begin{frame}\frametitle{With vfill}
+
+\vfill
+
+\begin{itemize}
+\vfill
+
+\item Text is automatically centered vertically.
+
+\vfill
+
+\item Starts flush left.
+
+\vfill
+
+\item No separation or indentation between paragraphs. %why do you have a paragraph?
+
+
+\end{itemize}
+\vfill %Show them the code
+
+\end{frame}
+
+\begin{frame}\frametitle{vspace}
+He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
+His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
+
+He's an ex-parrot!
+\end{frame}
+
+\begin{frame}\frametitle{vspace}
+
+He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
+His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
+
+\vspace{0.1in}
+
+He's an ex-parrot!
+\end{frame}
+
+
+
+\begin{frame}\frametitle{Overlays}
+
+\vfill
+Thinking of a frame as a slide in a presentation \ldots 
+
+\vfill
+\pause
+
+
+Overlays are \pause slides \pause that \pause are added \pause as the presenter \pause speaks.  %Basically the file makes a series of pages in the PDF file, one page for each overlay.
+
+\vfill
+
+\pause Two general methods \ldots
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{Pause: Quick and Dirty Method}
+
+\vfill
+\begin{itemize}
+  \item Command: \verb#\pause# 
+  \pause
+  \vfill
+  \item Insert where the overlay should occur.  \pause
+  \vfill 
+  \item Nothing complicated:\vfill  \pause
+  \begin{itemize}
+    \item No displayed math;\vfill  \pause
+    \item Nothing to appear then disappear;\vfill  \pause
+    \item Entire environments at a time.\vfill  
+  \end{itemize}
+\end{itemize} % Show them the code for this part
+
+\end{frame}
+
+\begin{frame}{onslide: far more robust}
+
+Recall the Taylor series for $\sin$ and $\cos$:
+
+\begin{align*}
+  \cos(x) & = \sum_{n=0}^\infty \frac{(-1)^nx^{2n}}{2n!} \\
+  \sin(x) & = \sum_{n=0}^\infty \frac{(-1)^nx^{2n+1}}{(2n+1)!} 
+\end{align*}
+
+\onslide<2->{If $x=i \theta $ where $i^2 = -1$, then:
+\begin{align*}
+\onslide<3->{  \cos(i\theta) & = \sum_{n=0}^\infty \frac{(-1)^n(i\theta)^{2n}}{2n!} 
+\onslide<4->{ = \sum_{n=0}^\infty\frac{(-1)^n(-1)^n\theta^{2n}}{2n!} 
+ = \sum_{n=0}^\infty\frac{\theta^{2n}}{2n!} \\
+}
+ % \sin(i\theta) & = \sum_{n=0}^\infty \frac{(-1)^n(i\theta)^{2n+1}}{(2n+1)!} 
+ % \onslide<4->{ = \sum_{n=0}^\infty\frac{(-1)^n(-1)^ni\theta^{2n+1}}{(2n+1)!}
+ %  = i\sum_{n=0}^\infty \frac{\theta^{2n+1}}{(2n+1)!} 
+  }
+\end{align*} }
+
+\end{frame}
+
+\begin{frame}[fragile]{onslide: syntax}
+
+\vfill
+\begin{itemize}
+  \item Initial frame is considered slide 1.\vfill
+  \item Content from slide $n$ onward: \verb#\onslide<n->{ Content }#\vfill
+  \item Content on slides $m-n$: \verb#\onslide<m-n>{ Content }#\vfill
+  \item Content on slides $i,j,k$: \verb#\onslide<i,j,k>{Content}#\vfill
+  \item More options \ldots 
+\end{itemize}
+
+
+\end{frame}
+
+\begin{frame}\frametitle{Graphics}
+
+Here is a picture \ldots 
+
+\begin{center}
+\includegraphics[scale=0.5]{Trefoil.jpg}
+\end{center}
+
+
+\end{frame}
+
+\begin{frame}[fragile]\frametitle{Here's how you get it \ldots}
+
+\begin{itemize}
+  \item In preamble: \verb#\usepackage{graphicx}# (accept no substitute) \vfill
+  \item Generate graphic in appropriate format: pdf, jpg, gif, eps\vfill
+  \item Command: \verb#\includegraphics[options]{filename}#\vfill
+  \item Common options:\vfill
+  \begin{itemize}
+    \item scale=\textsl{scaling factor}\vfill
+    \item rotate=\textsl{counterclockwise rotation in degrees}\vfill
+    \item many others\vfill
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}\frametitle{A Word about Compilation Errors\ldots}
+
+\vfill
+
+Get an error message while compiling, 
+\pause
+
+\vfill
+
+it might as well say 
+
+\pause
+
+\vfill
+\textsc{Bad Karma}.
+
+\vfill
+
+\end{frame}
+
+\end{document}
