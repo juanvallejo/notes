@@ -1,0 +1,3 @@
+[submodule "cs495/HW_4/search_demo_2d"]
+	path = cs495/HW_4/search_demo_2d
+	url = git@github.com:CNURobotics/search_demo_2d.git

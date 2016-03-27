@@ -1,0 +1,42 @@
+\documentclass{amsart}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage[margin=1in,bottom=1in,top=1in]{geometry}
+\renewcommand{\baselinestretch}{2}
+
+\title{Problem Solution}
+\author{Juan Vallejo}
+\date{15 February, 2016}
+
+\begin{document}
+
+\maketitle
+
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}[definition]{Theorem}
+
+\section*{Statement}
+
+Show that among twelve composite numbers selected from the first $1200$ natural numbers, there will always be two that have a common factor greater than $1$.
+
+\begin{definition} \label{def:1}
+    \textit{A composite number is a positive integer with at least one positive divisor other than one or the number itself}.
+\end{definition}
+
+Each integer in the list below is every possible square from $9$ to $1200$ whose {\it square root} is a number with multiples of $1$ and itself. In other words, the factors of every number above are a prime number and {\it one}.
+\begin{equation*}
+  \lbrace 9,25,49,121,169,289,361,529,841,961 \rbrace
+\end{equation*}
+
+The factorization for every integer $\lbrace 1 \dots n \rbrace$ can be simplified to \textit{prime numbers}. Since the numbers above cover every number whose square root $n\prime$ is a prime number, and the square of $n\prime$ is a composite number where $n\prime^2 \leq 1200$, every prime factor for any number $n \leq 1200$ is present as the square root of every number in the list above, except the prime number $2$.
+
+A worst-case scenario is shown below:
+\begin{equation*}
+  \lbrace 4,8,9,25,49,121,169,289,361,529,841,961 \rbrace
+\end{equation*}
+
+Since we have any two other numbers $n$ (where $n \leq 1200$) yet to add to the list above, adding two more composite numbers whose factors are $2, 1$, and itself, will make the newly added pair fit still our initial statement. Since any other prime factors are covered, for any number $n \leq 1200$, it can safely be stated that among any twelve composite numbers selected from the first $1200$ natural numbers, there will always be at least one pair with a common factor greater than $1$. 
+
+\end{document}
