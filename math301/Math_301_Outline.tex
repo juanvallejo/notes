@@ -1,0 +1,158 @@
+\documentclass{amsart}
+\renewcommand{\baselinestretch}{1.5}
+\usepackage{outline}
+
+\pagestyle{empty}
+
+\title{Function Theory}
+\author{Juan Vallejo}
+
+\begin{document}
+\maketitle
+
+\begin{outline}
+  \item {\bf Introduction }
+  \begin{outline}
+    \item {\bf Definition } \\
+      In mathematics, a function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output \cite{wolfram1}.
+    \item {\bf Thesis Statement } \\
+      Function theory is an integral part of mathematics and the computational world. It allows us to use the same set of rules more than once in an expression, with different parameter values, and recognize similarities in a set of observations. This theory is implemented by programming languages such as Haskell, as part of a new programming language paradigm, in order to perform calculations without mutating memory \cite{mathexchange2}.
+  \end{outline}
+  \item {\bf Components and Relations } \\
+      Functions can be seen as relations that uniquely associate members of one set with members of another set. More formally, a function from $A$ to $B$ is an object $f$ such that every $\alpha \in A$ is uniquely associated with an object $f(a) \in B$. A function is therefore a many-to-one relation \cite{wolfram2}.
+    \begin{outline}
+      \item {\bf Domain and Range } \\
+        The set $A$ of values at which a function is defined is called its domain, while the set $f(A) \subset B$ of values that the function can produce is called its range \cite{wolfram2}. It is usually a union of intervals, and is denoted by $D(f), D_f$, or $dom(f)$:
+        \begin{equation*}
+          D(f) = \lbrace x \in \mathbb{R}; f(x) \rbrace
+        \end{equation*}
+
+        The range of a function is the set of all values that can be obtained by substituting arguments from the domain
+      \item {\bf Mapping } \\
+        In mathematics, the term \textbf{map} is often used to refer to functions. It can be used to denote functions with regular assumptions, such as in the case of continuous functions.
+      \item {\bf Real functions } \\
+        A function is defined as ``real" when $f: A \subset \mathbb{R} \to \mathbb{R}$. The fact that domain elements are mapped to unique range elements can be expressed graphically by performing the vertical line test. Real functions are the most important type of \textit{mapping}. They can be thought of as any mapping from some subset of the set of real numbers to the set of real numbers. \cite{mathfeld}.
+      \begin{outline}
+         \item {\bf Basic Notions } \\
+          A real function can be thought of as a prescription which assigns values to arguments. For example, the notation $y = f(x)$ means that to the value $x$ of the argument, the function $f$ assigns the value $y$. A second notation $f: x \to y$ is also used, which implies that the function $f$ sends value $x$ to $y$. The most usual way of specifying assignments is that the function value $y$ can be obtained by substituting $x$ to a specific formula that identifies the given function. For example,
+          \begin{equation*}
+            f(x) = 2x + 3
+          \end{equation*}
+          would send the argument $x = -1$ to $f(-1) = 2 \cdot (-1) + 3 = 1$
+         \item {\bf Substitution } \\
+          There is an alternative way to express the idea that we substitute some concrete number into a function:
+          \begin{equation*}
+            f(a) = f \mid_a = f\mid_{x=a}
+          \end{equation*}
+          This notation is specially used when a function needs adjustment, but is not yet ready for substitution. For example,
+          \begin{equation*}
+            \left.\frac{x^2 - 1}{x-1}\right\rvert_{x=3} = \left.\frac{(x-1)(x+1)}{x-1}\right\rvert_{x=3} = 4.
+          \end{equation*}
+         \item {\bf Visualization } \\
+          Graphs are a common way of visualizing functions in mathematics. They are used to mark in the two-dimensional plane $(x,y)$ all couples $x, f(x)$ \cite{mathfeld}.
+      \end{outline}
+    \end{outline}
+  \item {\bf Types of Functions } \\
+    Functions are the primary objects of study in calculus, consisting of various types, from linear to polynomial, trigonometric, and logarithmic. \cite{oregonstate}
+  \begin{outline}
+    \item {\bf Linear Functions } \\
+      Linear functions allow us to approximate more complicated functions in differential calculus. There are three standard forms of linear functions:
+      \begin{align*}
+        f(x) &= mx + b &\,\text{(Slope-intercept form)} \\
+        y - y_o &= m(x - x_0) &\, \text{(The ``point-slope" form)} \\
+        Ax + By &= C &\, \text{(The ``general" form)}
+      \end{align*}
+    \begin{outline}
+      \item {\bf Calculations } \\
+        Linear functions are frequently used to solve for the following calculations:
+      \begin{outline}
+        \item {\bf Intercepts } \\
+           Finding the slope, x-intercept, and y-intercept of the line given its equation.
+        \item {\bf Intersections } \\
+          Finding the intersection of two lines from their equations.
+        \item {\bf Equations } \\
+           Finding the equation of the line through a series of points given one of the following three pairs of data:
+           \begin{itemize}
+            \item the slope of the line and the y-intercept
+            \item the slope of the line and a point $(x_0,y_0)$ on the line
+            \item the coordinates of two points on the line
+           \end{itemize}
+            \end{outline}
+      \item {\bf Graphs } \\
+        If $f(x)$ is linear, the graph of $y=f(x)$ is a straight line. The parameter $m$ in the first two formulas represents the slope of this line. In the general form, the slope is $-A/B$ if $B \neq 0$, and indefinite if $B=0$ \cite{oregonstatelinear}.
+    \end{outline}
+  \item {\bf Polynomial Functions } \\
+      Polynomial functions can be represented by the formula:
+      \begin{align*}
+        f(x) = a_nx^n + a_{n-1}x{n-1} + \cdots a_1x + a_0
+      \end{align*}
+      where $a_0, a_1$, \dots , $a_n$ are real numbers. These are called the coefficients. It is assumed that $a_n \neq 0$. The number n is called the degree of the polynomial function.
+    \begin{outline}
+      \item {\bf Standard Forms }      
+      \item {\bf Large Scale Behavior }
+      \item {\bf Graphs of Monomials }
+      \item {\bf Roots or Zeros }
+    \end{outline}
+  \item {\bf Power Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf Rules of Exponentiation }
+      \item {\bf Domains of Power Functions }
+      \item {\bf Graphs of Power Functions }
+      \item {\bf Calculations with Power Functions }
+    \end{outline}
+  \item {\bf Rational Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf The Domain of a Rational Function }
+      \item {\bf Other Quotients }
+      \item {\bf Graphing Rational Functions }
+      \item {\bf Asymptotes }
+      \item {\bf Calculations with Rational Functions }
+    \end{outline}
+  \item {\bf Exponential Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf Rules of Exponentiation }
+      \item {\bf Graphs of Exponential Functions }
+      \item {\bf Exponential Growth and Decay }
+      \item {\bf Exponential Equations }
+    \end{outline}
+  \item {\bf Logarithmic Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf Algebra of Logarithms }
+      \item {\bf Graphs Logarithmic Functions }
+    \end{outline}
+  \item {\bf Trigonometric Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf Identities }
+      \item {\bf Graphs of Sin and Cosine }
+      \item {\bf The Tangent Function }
+    \end{outline}
+  \item {\bf Piecewise Functions }
+    \begin{outline}
+      \item {\bf Standard Notation }      
+      \item {\bf Graphing Piecewise Functions }
+    \end{outline}
+\end{outline}
+  \item {\bf Function Composition }
+  \item {\bf Applications of Function Theory } \\
+    Function theory is used in the design of various programming languages. The intent of using such concept as the basis in a different approach to the design of programming languages gives way to several advantages and disadvantages not seen with procedural and object-oriented programming.
+  \item {\bf Conclusion }
+\end{outline}
+
+\begin{thebibliography}{10}
+
+\bibitem{wolfram1} http://mathworld.wolfram.com/Function.html
+\bibitem{wolfram2} http://functions.wolfram.com/ElementaryFunctions/
+\bibitem{oregonstate} http://oregonstate.edu/instruct/mth251/cq/FieldGuide/
+\bibitem{oregonstatelinear} http://oregonstate.edu/instruct/mth251/cq/FieldGuide/linear/lesson.html
+\bibitem{mathexchange1} http://math.stackexchange.com/questions/575198/what-purpose-does-the-use-of-functions-serve-in-mathematics
+\bibitem{mathexchange2} http://math.stackexchange.com/questions/108133/what-are-functions-used-for
+\bibitem{mathfeld} http://math.feld.cvut.cz/mt/txtb/3/txeba3a.htm
+
+\end{thebibliography}
+
+\end{document}
