@@ -10,7 +10,7 @@
   \maketitle
 \end{frame}
 
-% slide 1
+% slide 0
 \begin{frame}[fragile]\frametitle{What Are Functions?}
 \begin{center}\textbf{Definition} \end{center}
 
@@ -32,6 +32,22 @@
 \end{itemize}
 
 \end{frame}
+
+% slide 1
+\begin{frame}[fragile]\frametitle{History of Functions}
+\begin{center} Concept emerged in the 17th century in connection with the development of calculus. For example the slope $\frac{dy}{dx}$ of a graph at a point was regarded as a function of the x-coordinate of the point. \end{center}
+
+\begin{itemize}
+  \item Went from being defined as \textit{analytic expression} to \textit{single-valued mapping from one set to another}.
+  \item Term \textit{function} was introduced by \textbf{Gottfried Leibniz} in 1673 to describe a quantity related to a curve, such as a curve`s slope at a specific point.
+  \item Later re-defined by Leibniz as \textit{any expression made up of a variable and some constants}.
+  \item The familiar notation $f(x)$ was later introduced by \textit{Leonhard Euler}.
+  \item Functions from those times are called today \textit{differentiable functions}.
+  
+\end{itemize}
+
+\end{frame}
+
 
 % slide 2
 \begin{frame}[fragile]\frametitle{Why Functions?}
@@ -189,246 +205,113 @@ Allow us to approximate more complicated functions in differential calculus. The
 
 \end{frame}
 
+% slide 10
+\begin{frame}[fragile]\frametitle{Linear Functions}
+\begin{center}\textbf{Graphs} \end{center}
 
-% slide n
-\begin{frame}[fragile]\frametitle{File Structure}
-
-File is separated into frames: % AKA slides
-
-\vfill
-
-Inside the document:
-
-\vfill
-\begin{verbatim}
-
-\begin{frame}\frametitle{Title}
-
-Contents 
-
-\end{frame} \end{verbatim}
-
-\vfill
-
-Compile to PDF! (DVI has \ldots issues)
-
-\vfill
-
-
-\end{frame}
-
-\begin{frame}[fragile]\frametitle{Spacing}
-
-\begin{itemize}
-\item Text is automatically centered vertically.
-\item Starts flush left.
-\item No separation or indentation between paragraphs. %why do you have a paragraph?
-
-\end{itemize}
-
-He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
-His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
-
-He's an ex-parrot!
-
-%Quite crushed together
-
-
-\end{frame}
-
-\begin{frame}[fragile]\frametitle{Spacing}
-
-\vfill
-
-Vertical spacing: give blank lines before and after the command % not always necessary but at first, it's a good idea.
-\begin{itemize}
-  \item Manual vertical spacing: \verb#\vspace{amount in units}#  %many units, pts. inches, centimeters
-  \item Automatic spacing: \verb#\vfill#
-\end{itemize}
-
-\vfill
-
-Horizontal spacing: 
-\begin{itemize}
-  \item Manual vertical spacing: \verb#\hspace{amount in units}# 
-  \item Automatic spacing: \verb#\hfill#
-\end{itemize}
-
-\vfill
-
-\end{frame}
-
-\begin{frame}\frametitle{Earlier example}
-
-\begin{itemize}
-\item Text is automatically centered vertically.
-\item Starts flush left.
-\item No separation or indentation between paragraphs. %why do you have a paragraph?
-\end{itemize}
-
-
-
-\end{frame}
-
-\begin{frame}\frametitle{With vfill}
-
-\vfill
-
-\begin{itemize}
-\vfill
-
-\item Text is automatically centered vertically.
-
-\vfill
-
-\item Starts flush left.
-
-\vfill
-
-\item No separation or indentation between paragraphs. %why do you have a paragraph?
-
-
-\end{itemize}
-\vfill %Show them the code
-
-\end{frame}
-
-\begin{frame}\frametitle{vspace}
-He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
-His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
-
-He's an ex-parrot!
-\end{frame}
-
-\begin{frame}\frametitle{vspace}
-
-He's a stiff! Bereft of life, he rests in peace! If you hadn't nailed him to the perch he'd be pushing up the daisies!
-His metabolic processes are now history! He's off the twig!  He's kicked the bucket, he's shuffled off his mortal coil, run down the curtain and joined the bleeding choir invisible!
-
+If $f(x)$ is linear, the graph of $y = f(x)$ is a straight line. The parameter $m$ in the formula below represents the slope of a line. In general form, the slope is $-A/B$ if $B \neq 0$, and indefinite if $B=0$.
 \vspace{0.1in}
 
-He's an ex-parrot!
-\end{frame}
-
-
-
-\begin{frame}\frametitle{Overlays}
-
-\vfill
-Thinking of a frame as a slide in a presentation \ldots 
-
-\vfill
-\pause
-
-
-Overlays are \pause slides \pause that \pause are added \pause as the presenter \pause speaks.  %Basically the file makes a series of pages in the PDF file, one page for each overlay.
-
-\vfill
-
-\pause Two general methods \ldots
+\begin{center}\includegraphics[scale=0.08]{Function_Graph_sl10.png} \end{center}
 
 \end{frame}
 
-\begin{frame}[fragile]\frametitle{Pause: Quick and Dirty Method}
-
-\vfill
-\begin{itemize}
-  \item Command: \verb#\pause# 
-  \pause
-  \vfill
-  \item Insert where the overlay should occur.  \pause
-  \vfill 
-  \item Nothing complicated:\vfill  \pause
-  \begin{itemize}
-    \item No displayed math;\vfill  \pause
-    \item Nothing to appear then disappear;\vfill  \pause
-    \item Entire environments at a time.\vfill  
-  \end{itemize}
-\end{itemize} % Show them the code for this part
-
-\end{frame}
-
-\begin{frame}{onslide: far more robust}
-
-Recall the Taylor series for $\sin$ and $\cos$:
-
+% slide 11
+\begin{frame}[fragile]\frametitle{Polynomial Functions}
+\begin{center} Can be represented by the formula: \end{center}
 \begin{align*}
-  \cos(x) & = \sum_{n=0}^\infty \frac{(-1)^nx^{2n}}{2n!} \\
-  \sin(x) & = \sum_{n=0}^\infty \frac{(-1)^nx^{2n+1}}{(2n+1)!} 
+  f(x) = a_nx^n + a_{n-1}x{n-1} + \cdots a_1x + a_0
 \end{align*}
-
-\onslide<2->{If $x=i \theta $ where $i^2 = -1$, then:
-\begin{align*}
-\onslide<3->{  \cos(i\theta) & = \sum_{n=0}^\infty \frac{(-1)^n(i\theta)^{2n}}{2n!} 
-\onslide<4->{ = \sum_{n=0}^\infty\frac{(-1)^n(-1)^n\theta^{2n}}{2n!} 
- = \sum_{n=0}^\infty\frac{\theta^{2n}}{2n!} \\
-}
- % \sin(i\theta) & = \sum_{n=0}^\infty \frac{(-1)^n(i\theta)^{2n+1}}{(2n+1)!} 
- % \onslide<4->{ = \sum_{n=0}^\infty\frac{(-1)^n(-1)^ni\theta^{2n+1}}{(2n+1)!}
- %  = i\sum_{n=0}^\infty \frac{\theta^{2n+1}}{(2n+1)!} 
-  }
-\end{align*} }
+where $a_0, a_1$, \dots , $a_n$ are real numbers. These are called the coefficients. It is assumed that $a_n \neq 0$. The number n is called the degree of the polynomial function.
+\vspace{0.1in}
 
 \end{frame}
 
-\begin{frame}[fragile]{onslide: syntax}
+% slide 12
+\begin{frame}[fragile]\frametitle{Polynomial Functions}
+\begin{center} \textbf{Standard Forms} \end{center}
+
+\begin{equation*}
+  f(x) = a_nx^n + a_{n-1}x^{n-1}+ \cdots + a_1x+a_0
+\end{equation*}
 
 \vfill
 \begin{itemize}
-  \item Initial frame is considered slide 1.\vfill
-  \item Content from slide $n$ onward: \verb#\onslide<n->{ Content }#\vfill
-  \item Content on slides $m-n$: \verb#\onslide<m-n>{ Content }#\vfill
-  \item Content on slides $i,j,k$: \verb#\onslide<i,j,k>{Content}#\vfill
-  \item More options \ldots 
+  \item The $a_i$ are real numbers and are called  \textbf{coefficients}.
+  \item The term $a_n$ is assumed to be non-zero and is called the \textbf{leading term.}
+  \item The degree of the polynomial is the largest exponent of $x$
+  \item A Polynomial with one term is called a \textbf{monomial}
+  \item A degree-zero polynomial is a constant
+  \item A degree $1$ polynomial is a linear function
+  \item A degree $2$ polynomial is a quadratic function
+  \item a degree $3$ polynomial is a cubic
 \end{itemize}
 
+\end{frame}
+
+% slide 13
+\begin{frame}[fragile]\frametitle{Power Functions}
+\begin{center} Power functions are of the form: \end{center}
+
+\begin{equation*}
+  f(x) = kx^p
+\end{equation*}
+\begin{center} where $p$ is any real number and $k$ is non-zero. Rules are: \end{center}
+
+\vfill
+\begin{itemize}
+  \item $x^{(p+q)} = (x^p)(x^q)$
+  \item $x^{pq} = (x^p)^q$
+  \item $x^{-p} = \frac{1}{x^p}$
+  \item $x^{\frac{1}{p}}$ is the $p^{th}$ root of x
+  \item $x^0 = 1$ for any $x \neq 0$. $0^0$ is undefined
+  \item $(xy)^p = (x^p)(y^p)$
+\end{itemize}
 
 \end{frame}
 
-\begin{frame}\frametitle{Graphics}
+% slide 14
+\begin{frame}[fragile]\frametitle{Power Functions}
+\begin{center}Graphs of Power Functions\end{center}
 
-Here is a picture \ldots 
-
-\begin{center}
-\includegraphics[scale=0.5]{Trefoil.jpg}
-\end{center}
-
+\begin{center}\includegraphics[scale=0.6]{Function_PowerGraph_sl14.png} \end{center}
 
 \end{frame}
 
-\begin{frame}[fragile]\frametitle{Here's how you get it \ldots}
+% slide 15
+\begin{frame}[fragile]\frametitle{...}
+\begin{center} Functors are the idea of structure-preserving functions (homomorphisms). \end{center}
 
 \begin{itemize}
-  \item In preamble: \verb#\usepackage{graphicx}# (accept no substitute) \vfill
-  \item Generate graphic in appropriate format: pdf, jpg, gif, eps\vfill
-  \item Command: \verb#\includegraphics[options]{filename}#\vfill
-  \item Common options:\vfill
+  \item 
+  \item It is further used in every-day life when computing things such as \textbf{miles per gallon}, or \textbf{weekly salaries}, or \textbf{compound interest}. These are all functions of specific rates such as houerly pay for salaries, or initial investment and interest rate over time for compound interest.
+\end{itemize}
+% \begin{center}\includegraphics[scale=0.6]{Function_PowerGraph_sl14.png} \end{center}
+
+\end{frame}
+
+
+% slide 16
+\begin{frame}[fragile]\frametitle{Real-World Applications}
+\begin{itemize}
+  \item Mathematical function theory is used in the design of various programming languages. The intent of using such concept as a basis in a different approach to the design of programming languages gives way to several advantages and disadvantages not seen with procedural and object-oriented programming. Examples of purely functional programming languages include:
   \begin{itemize}
-    \item scale=\textsl{scaling factor}\vfill
-    \item rotate=\textsl{counterclockwise rotation in degrees}\vfill
-    \item many others\vfill
+    \item{Haskell}
+    \item{Agda}
+    \item{Mercury}
   \end{itemize}
+  \vfill
+  \item It is further used in every-day life when computing things such as \textbf{miles per gallon}, or \textbf{weekly salaries}, or \textbf{compound interest}. These are all functions of specific rates such as houerly pay for salaries, or initial investment and interest rate over time for compound interest.
 \end{itemize}
+% \begin{center}\includegraphics[scale=0.6]{Function_PowerGraph_sl14.png} \end{center}
+
 \end{frame}
 
+% slide 16
+\begin{frame}[fragile]\frametitle{Conclusion}
 
-\begin{frame}\frametitle{A Word about Compilation Errors\ldots}
-
-\vfill
-
-Get an error message while compiling, 
-\pause
-
-\vfill
-
-it might as well say 
-
-\pause
-
-\vfill
-\textsc{Bad Karma}.
-
-\vfill
+\begin{center} Function theory is an important part of mathematics and of the world around us. It is used every day in applications like the stock market, to calculating monthly budgets, to rendering computer graphics. \end{center}
+\begin{center}\includegraphics[scale=0.4]{Function_CompGraphics_slLast.jpg} \end{center}
 
 \end{frame}
 
