@@ -39,7 +39,7 @@
 
 \begin{itemize}
   \item Went from being defined as \textit{analytic expression} to \textit{single-valued mapping from one set to another}.
-  \item Term \textit{function} was introduced by \textbf{Gottfried Leibniz} in 1673 to describe a quantity related to a curve, such as a curve`s slope at a specific point.
+  \item Term \textit{function} was introduced by \textbf{Gottfried Leibniz} in 1673 to describe a quantity related to a curve, such as a curve's slope at a specific point.
   \item Later re-defined by Leibniz as \textit{any expression made up of a variable and some constants}.
   \item The familiar notation $f(x)$ was later introduced by \textit{Leonhard Euler}.
   \item Functions from those times are called today \textit{differentiable functions}.
@@ -48,6 +48,18 @@
 
 \end{frame}
 
+% slide 1.5
+\begin{frame}[fragile]\frametitle{Function Composition}
+\begin{center} Composition is the operation of taking the output from one function and using that as the input to a second function. It, together with the algebraic operations on functions, is what allows us to take the basic building blocks of ``pure" function types and build large varieties of functions which is the focus of calculus. \end{center}
+
+\begin{center} \textbf{Definition} \end{center}
+\begin{itemize}
+  \item The composition $f \circ g$ of the two functions $f$ and $g$ is the function which feeds an input to $g$ and feeds the output of $g$ to $f$
+\end{itemize}
+
+\begin{center}\includegraphics[scale=0.35]{Function_FuncComp_slOther.png} \end{center}
+
+\end{frame}
 
 % slide 2
 \begin{frame}[fragile]\frametitle{Why Functions?}
@@ -138,7 +150,7 @@ A function is defined as ``Real" when $f: A \subset \mathbb{R} \in \mathbb{R}$
   \begin{equation*}
     \left.\frac{x^2 - 1}{x-1}\right\rvert_{x=3} = \left.\frac{(x-1)(x+1)}{x-1}\right\rvert_{x=3} = 4.
   \end{equation*}
-  \item Graphs are common way of visuaizing functions in mathematics.
+  \item Graphs are common way of visualizing functions in mathematics.
   \item Used to mark in the two-dimensional plane $(x,y)$ all couples $x, f(x)$
   
 \end{itemize}
@@ -279,19 +291,94 @@ where $a_0, a_1$, \dots , $a_n$ are real numbers. These are called the coefficie
 \end{frame}
 
 % slide 15
-\begin{frame}[fragile]\frametitle{...}
-\begin{center} Functors are the idea of structure-preserving functions (homomorphisms). \end{center}
+\begin{frame}[fragile]\frametitle{Rational Functions}
+\begin{center} Functions that can be represented as the quotient of polynomials \end{center}
 
 \begin{itemize}
-  \item 
-  \item It is further used in every-day life when computing things such as \textbf{miles per gallon}, or \textbf{weekly salaries}, or \textbf{compound interest}. These are all functions of specific rates such as houerly pay for salaries, or initial investment and interest rate over time for compound interest.
+  \item Typical form of $\frac{p(x)}{a(x)}$ where $p$ and $q$ are polynomials.
+  \item $p(x)$ is called the numerator and $q(x)$ is the denominator
 \end{itemize}
+
+\vfill
+\begin{equation*}
+  g(x) = \frac{x^2 - 4}{x^2 - 5x + 6}
+\end{equation*}
+In the example above, $x^2 - 4$ is the numerator and $x^2 - 5x + 6$ is the denominator. A polynomial is a rational function whose denominator is $1$.
 % \begin{center}\includegraphics[scale=0.6]{Function_PowerGraph_sl14.png} \end{center}
 
 \end{frame}
 
-
 % slide 16
+\begin{frame}[fragile]\frametitle{Rational Functions}
+\begin{center} Domain and Range of Rational Functions \end{center}
+
+\begin{itemize}
+  \item Domain of a rational function $\frac{p(X)}{q(x)}$ consists of all ponints where $q(x)$ is non-zero
+  \item Domain depends on the way in which $p(x)$ and $q(x)$ are chosen. By expanding the function above, $x = 2$ will now appear in its domain, whereas it did not before:
+\end{itemize}
+
+\begin{equation*}
+  g(x) = \frac{(x-2)(x + 2)}{(x - 3)(x - 2)}
+\end{equation*}
+% \begin{center}\includegraphics[scale=0.6]{Function_PowerGraph_sl14.png} \end{center}
+
+\end{frame}
+
+% slide 17
+\begin{frame}[fragile]\frametitle{Other Functions}
+
+\begin{itemize}
+  \item Exponential Functions
+  \begin{itemize}
+    \item Functions of the form $f(x) =  b^x$ for any positive real number $b$.
+    \item Characterized by their rate of growth being proportional to their value
+  \end{itemize}
+\end{itemize}
+\begin{center}\includegraphics[scale=0.4]{Function_ExpoGraph_slOther.png} \end{center}
+
+\end{frame}
+
+% slide 18
+\begin{frame}[fragile]\frametitle{Other Functions}
+
+\begin{itemize}
+  \item Logarithmic Functions
+  \begin{itemize}
+    \item Defined as any function of the form $\log_bx$ being the inverse function of the exponential function $b^x$
+    \item Three bases for logarithms:
+    \begin{itemize}
+      \item \textbf{Natural logarithms} written as $\ln x$, expressed as the logarithm to the base $e$. Thus $e^x$ and $\ln(x)$ are inverse functions
+      \item \textbf{Common logarithms} written as $\log x$, expressed as the logarithm to the base $10$. Thus $10^{\log x} = x$
+      \item \textbf{Binary logarithms} used in communications and computer science with a base of $2$. Expressed as $\log(x)$ or $\log_2x$ where $x$ is an integer measuring the number of bits it takes to write $x$.
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\begin{center}\includegraphics[scale=0.25]{Function_LogGraph_slOther.png} \end{center}
+
+\end{frame}
+
+% slide 19
+\begin{frame}[fragile]\frametitle{Other Functions}
+
+\begin{itemize}
+  \item Trigonometric Functions
+  \begin{itemize}
+    \item Examples of these include $\sin(x)$ and $\cos(x)$ defined in the image below:
+      \begin{center}\includegraphics[scale=0.45]{Function_TrigCircl_slOther.png} \end{center}
+    \item Other trigonometric functions defined below:
+    \begin{itemize}
+      \item $\tan(x) = \frac{\sin(x)}{\cos(x)}$
+      \item $\cot(x) = \frac{\cos(x)}{\sin(x)}$
+      \item $\sec(x) = \frac{1}{\cos(x)}$
+      \item $\csc(x) = \frac{1}{\sin(x)}$
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\begin{center}\includegraphics[scale=0.3]{Function_SinCos_slOther.png} \end{center}
+
+\end{frame}
+
+% slide 20
 \begin{frame}[fragile]\frametitle{Real-World Applications}
 \begin{itemize}
   \item Mathematical function theory is used in the design of various programming languages. The intent of using such concept as a basis in a different approach to the design of programming languages gives way to several advantages and disadvantages not seen with procedural and object-oriented programming. Examples of purely functional programming languages include:
@@ -307,11 +394,26 @@ where $a_0, a_1$, \dots , $a_n$ are real numbers. These are called the coefficie
 
 \end{frame}
 
-% slide 16
+% slide 21
 \begin{frame}[fragile]\frametitle{Conclusion}
 
 \begin{center} Function theory is an important part of mathematics and of the world around us. It is used every day in applications like the stock market, to calculating monthly budgets, to rendering computer graphics. \end{center}
-\begin{center}\includegraphics[scale=0.4]{Function_CompGraphics_slLast.jpg} \end{center}
+\begin{center}\includegraphics[scale=0.3]{Function_CompGraphics_slLast.jpg} \end{center}
+
+\end{frame}
+
+% slide 22
+\begin{frame}[fragile]\frametitle{Works Cited}
+
+\begin{itemize}
+  \item http://mathworld.wolfram.com/Function.html
+  \item http://functions.wolfram.com/ElementaryFunctions/
+  \item http://oregonstate.edu/instruct/mth251/cq/FieldGuide/
+  \item http://oregonstate.edu/instruct/mth251/cq/FieldGuide/linear/lesson.html
+  \item http://math.stackexchange.com/questions/575198/what-purpose-does-the-use-of-functions-serve-in-mathematics
+  \item http://math.stackexchange.com/questions/108133/what-are-functions-used-for
+  \item http://math.feld.cvut.cz/mt/txtb/3/txeba3a.htm
+\end{itemize}
 
 \end{frame}
 
