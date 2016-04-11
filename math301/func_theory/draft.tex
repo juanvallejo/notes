@@ -1,0 +1,198 @@
+\documentclass[11pt,oneside]{book}              % Book class in 11 points
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{verbatim, graphicx}
+\parindent0pt  \parskip10pt             % make block paragraphs
+\raggedright                            % do not right justify
+
+\newcommand{\specell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand\Tstrut{\rule{0pt}{2.6ex}}         % = `top' strut
+\newcommand\Bstrut{\rule[-0.9ex]{0pt}{0pt}}   % = `bottom' strut
+
+\title{\bf Mathematial Function Theory}    % Supply information
+\author{Juan Vallejo}              %   for the title page.
+\date{\today}                           %   Use current date. 
+
+% Note that book class by default is formatted to be printed back-to-back.
+\begin{document}                        % End of preamble, start of text.
+\frontmatter                            % only in book class (roman page #s)
+\maketitle                              % Print title page.
+\tableofcontents                        % Print table of contents
+\mainmatter                             % only in book class (arabic page #s)
+\chapter{Mathematical Function Theory}                % Print a "chapter" heading
+This book chapter contains a brief introduction to the history of functions and their application in the workplace, as well as functions commonly encountered in single variable calculus.
+ 
+The concept of functions emerged in the 17th century in connection with the development of calculus.
+
+\section{Introduction}                  % Print a "section" heading
+In mathematics, a function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output \cite{wolfram1}.
+
+Function theory is an integral part of mathematics and the computational world. It allows us to use the same set of rules more than once in an expression, with different parameter values, and recogbize similarities in a set of observations. This theory is implemented by programming languages such as Haskel, as part of a new programming language paradigm, in order to perform calculations without mutating memory \cite{mathexchange2}.
+
+To illustrate an example of the usefulness of functions in real-world problem solving, consider a scenario where $x$ represents the number of days since a local factory became operational and $y$ represents the number of accidents that have occurred at that same factory. Suppose we want to figure out the average number of accidents per day in the current month. We don't know the \textit{actual values} yet (as we are still in the current month), but we can aim to write down a formula that tells us what to do \textit{once} we have the numbers. Then we need to subtract the number of accidents on the first day of the current month from the number of accidents on the first day of the following month and divide it by the number of days that came in between. However, those two numbers of accidents are both values of $y$, so if all we have is the variables themselves, we end up with $\frac{y - y}{30}$ (assuming that the current month has $30$ days) which is nonsense. However, if we define a \textit{function} $f$ as \textit{the $y$ corresponding to day $x$}, we can now write the average as:
+\begin{equation*}
+	\frac{f(60) - f(31)}{30}
+\end{equation*}
+which then tells us unambiguously what to do. A significant advantage of the example above is that we can now use our concept of a function to recognize similarities. If we have four variables $x, y, z, w$, and it turns out that there is a function $f$ such that $y = f(x)$ and $z = f(w)$ for all corresponding values of the four variables, this tells us mainly that the \textit{relation} between $x$ and $y$ is the same as the relation between $w$ and $z$.
+
+\section{Components and Relations}
+Functions can be seen as relations that uniquely associate members of one set with members of another set. More formally, a function from $A$ to $B$ is an object $f$ such that every $\alpha \in A$ is uniquely associated with an object $f(a) \in B$. A function, by this observation, can be seen as a many-to-one relation \cite{wolfram2}.
+
+\subsection{Domain and Range}
+The set $A$ of values at which a function is defined is called its \textit{domain}, while the set $f(A) \subset B$ of values that the function can produce is called its range \cite{wolfram2}. It is usually a union of intervals, and is denoted by $D(f), D_f$, or $dom(f)$:
+\begin{equation*}
+	D(f) = \lbrace \in \mathbb{R}; f(x) \rbrace
+\end{equation*}
+
+The \textit{range} of a function is the set of all values that can be obtained by substituting arguments from the domain.
+
+\subsection{Mapping}
+In mathematics, the term \textbf{map} is often used to refer to functions. It can be used to denote functions with regular assumptions, such as in the case of continuous functions. In \textit{category theory}, ``map" is often used as a synonym for \textit{morphism}. In other words, it is used to specify something more general than a function \cite{cattheory}. In \textit{formal logic}, a map is used at times to declare a \textit{functional predicate}, whereas a function is a model of such a predicate in \textit{set theory}.
+
+\subsection{Real Functions}
+A function is defined as ``real" when $f: A \subset \mathbb{R} \to \mathbb{R}$. The fact that domain elements are mapped to unique range elements can be expressed graphically by performing the vertical line test. Real functions are the most important type of \textit{mapping}. They can be thought of as any mapping from some subset of the set of real numbers to the set of real numbers \cite{mathfeld}.
+
+\subsubsection{Basic Notions}
+A real function can be thought of as a prescription which assigns values to arguments. For example, the notation $y = f(x)$ means that to the value $x$ of the argument, the function $f$ assigns the value $y$. A second notation $f: x \to y$ is also used, which implies that the function $f$ sends value $x$ to $y$. The most usual way of specifying assignments is that the function value $y$ can be obtained by substituting $x$ to a specific formula that identifies the given function. For example,
+\begin{equation*}
+f(x) = 2x + 3
+\end{equation*}
+would send the argument $x = -1$ to $f(-1) = 2 \cdot (-1) + 3 = 1$
+
+\subsubsection{Substitution}
+The formula form of a function can be considered simply as a recipe for what to do with a given input. The input, given as the function's argument, is \textit{substituted} into the function declaration in order to define the process of retrieving an output. It is not uncommon, especially in calculus, to use the formula form of a function with a \textit{mathematical expression} as its argument instead of a number or single variable. Consider the following example:
+\begin{equation*}
+	f(x) = x^2 - 2x
+\end{equation*}
+This expression basically means that the function value is gotten by taking the square of the argument and subtracting twice the argument from it. It does not matter what symbol we use for the argument; rather it is how the function works that is of importance. The following items are valid examples of function substitutions:
+\begin{itemize}
+	\item $f(4) = 4^2 − 2 \cdot 4 $
+	\item $f(t) = t^2 − 2t$
+	\item $f(x + h) = (x+ h)^2 − 2 (x + h)$
+	\item $f(a x) = (a x)^2 − 2 (a x)$
+\end{itemize}
+
+Just as we can substitute an expression into a function, so we can substitute function into another function, for example:
+\begin{align}
+	f(x) &= x^2 - 2x \\
+	g(x) &= x + 3 \\
+	f(g(x)) &= (g(x))^2 - 2g(x) \\
+	f(g(x)) &= (x + 3)^2 - 2(x + 3)
+\end{align}
+This concept will be covered more in-depth later on in this chapter.
+
+There is an alternative way to express the idea that we substitute some concrete number into a function:
+\begin{equation*}
+f(a) = f \mid_a = f\mid_{x=a}
+\end{equation*}
+This notation is specially used when a function needs adjustment, but is not yet ready for substitution. For example:
+\begin{equation*}
+\left.\frac{x^2 - 1}{x-1}\right\rvert_{x=3} = \left.\frac{(x-1)(x+1)}{x-1}\right\rvert_{x=3} = 4.
+\end{equation*}
+
+\subsubsection{Visualization}
+Graphs are a common way of visualizing functions in mathematics. They are used to mark in the two-dimensional plane $(x,y)$ all couples $x, f(x)$ \cite{mathfeld}. Below is an example of the function $y=ax^2+bx+c$ when $a = 1, b = 0, \text{and} c = 1$:
+\begin{center}\includegraphics[scale=0.5]{Function_Graph_Draft_Sine.png}\end{center}
+
+\section{Types of Functions}
+Functions are the primary objects of study in calculus, consisting of various types, from \textit{linear} to \textit{polynomial}, \textit{trigonometric}, and \textit{logarithmic}. \cite{oregonstate}
+
+\subsection{Linear Functions}
+Linear functions allow us to approximate more complicated functions in differential calculus. There are three standard forms of linear functions:
+\begin{align*}
+f(x) &= mx + b &\,\text{(Slope-intercept form)} \\
+y - y_o &= m(x - x_0) &\, \text{(The ``point-slope" form)} \\
+Ax + By &= C &\, \text{(The ``general" form)}
+\end{align*}
+
+\subsubsection{Calculations}
+Linear functions are frequently used to solve for the following calculations:
+\begin{itemize}
+	\item {\bf Intercepts} - Finding the slope, x-intercept, and y-intercept of the line given its equation.
+	\item {\bf Intersections } - Finding the intersection of two lines from their equations.
+	\item {\bf Equations } - Finding the equation of the line through a series of points given one of the following three pairs of data:
+	\begin{itemize}
+		\item the slope of the line and the y-intercept
+		\item the slope of the line and a point $(x_0,y_0)$ on the line
+		\item the coordinates of two points on the line
+	\end{itemize}
+\end{itemize}
+
+Consider an example where we are given the equation for a line. The x-intercept is determined by setting $y=0$, the y-intercept is determined by setting $x = 0$, and the slope is determined by putting the equation into the form $y = mx + b$. The slope is then $m$. If the equation of the line is:
+\begin{equation*}
+	y - 2 = 3(x + 4)
+\end{equation*}
+
+the x-intercept is found by setting $y = 0$ and solving for $x$:
+\begin{align}
+	-2 &= 3(x + 4)\\
+	-2 &= 3x + 12\\
+	-14 &= 3x\\
+	x &= \frac{-14}{3}
+\end{align}
+
+The y-intercept is found by setting x=0 and solving for y:
+\begin{align}
+	y - 2 &= 3(4)\\
+	y - 2 &= 12\\
+	y &= 14
+\end{align}
+
+The slope is found by re-writing the equation:
+\begin{align}
+	y - 2 = 3x+12
+\end{align}
+
+In the \textit{slope-intercept} form ($y = mx + b$), we can easily see that the slope of the graph is $3$.
+
+\subsubsection{Graphs}
+If $f(x)$ is linear, the graph of $y=f(x)$ is a straight line. The parameter $m$ in the first two formulas represents the slope of this line. In the general form, the slope is $-A/B$ if $B \neq 0$, and indefinite if $B=0$ \cite{oregonstatelinear}.
+An example of the graph of $f(x)$ when $x = 1$ is illustrated below:
+\begin{center}\includegraphics[scale=0.5]{Function_Graph_Draft.png}\end{center}
+
+\subsection{Polynomial Functions}
+Polynomial functions can be represented as a function $f(x)$ by a formula:
+\begin{equation*}
+	f(x) = a_nx^n + a_{n-1}x{n-1} + \cdots a_1x + a_0
+\end{equation*}
+where $a_0, a_1$, \dots , $a_n$ are real numbers. These are called the coefficients. It is assumed that $a_n \neq 0$. The number $n$ is called the degree of the polynomial function. It is defined as the largest exponent of $x$ which appears in the polynomial. It is also the subscript of the leading term. If a polynomial consists of only a single term, it is called a \textbf{monomial}. If the polynomial's degree is $0$, then the polynomial is defined as a constant. Otherwise, if its degree is $1$, then it is defined as a linear function. Polynomials with degrees greater than one are defined as \textit{quadratic} if the degree is $2$, \textit{cubic} if the degree is $3$, \textit{quartic} if the degree is greater than $4$, and so on.
+
+The behavior of a polynomial function, regardless of the size of its degree, is exactly the same as the behavior of its monomial over a large enough scale.
+
+\subsubsection{Graphs}
+The general shape of the graph of a monomial
+\begin{equation*}
+	f(x) = a_nx^n
+\end{equation*}
+depends only on
+\begin{itemize}
+	\item The parity of $n$ (whether $n$ is even or odd)
+	\item The sign of $a_n$
+\end{itemize}
+
+For the example above, as $n$ gets larger, all of the equation's graphs become increasingly flat on the interval $\vert x\vert < 1$. All polynomial functions grow without bound in a positive or negative direction for large $x$ and large negative $x$.
+
+\begin{center}
+\begin{tabular}{ c c c }
+  & Graph of even $n$ & Graph of odd $n$ \\ \hline 
+ $a_n > 0$ & \specell{Always positive. \\ Resembles parabola opening up.} & \specell{Negative for $x < 0$\\Positive for $x > 0$ \\Resembles graph of $x^3$.} \\ 
+ $a_n < 0$ & \specell{Always negative. \\ Resembles parabola opening down.} & \specell{Positive for $x < 0$\\Negative for $x > 0$ \\Resembles graph of $-x^3$.}
+\end{tabular}
+\end{center}
+
+\begin{thebibliography}{10}
+
+\bibitem{wolfram1} http://mathworld.wolfram.com/Function.html
+\bibitem{wolfram2} http://functions.wolfram.com/ElementaryFunctions/
+\bibitem{oregonstate} http://oregonstate.edu/instruct/mth251/cq/FieldGuide/
+\bibitem{oregonstatelinear} http://oregonstate.edu/instruct/mth251/cq/FieldGuide/linear/lesson.html
+\bibitem{mathexchange1} http://math.stackexchange.com/questions/575198/what-purpose-does-the-use-of-functions-serve-in-mathematics
+\bibitem{mathexchange2} http://math.stackexchange.com/questions/108133/what-are-functions-used-for
+\bibitem{mathfeld} http://math.feld.cvut.cz/mt/txtb/3/txeba3a.htm
+\bibitem{cattheory} https://books.google.com/books?id=VOCQUC\_uiWgC\&pg\=PA2\&hl=en\#v=onepage\&q\&f=false
+\bibitem{mathonweb} http://mathonweb.com/help\_ebook/html/functions\_6.htm\#expr
+
+\end{thebibliography}
+
+\end{document}                          % The required last line
